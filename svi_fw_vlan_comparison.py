@@ -4,19 +4,19 @@ import json
 
 
 def get_vlan_file_list():
-    search = r"C:\scripts\vlan_script\configs\**\show_vlan.json"
+    search = r"C:\vlan_script_functions\configs\**\show_vlan.json"
     files = glob.glob(search, recursive=True)
     return files
 
 
 def get_core_sw_file_list():
-    search = r"C:\scripts\vlan_script\configs\**\show_ip_interface_brief_vrf_all.json"
+    search = r"C:\vlan_script_functions\configs\**\show_ip_interface_brief_vrf_all.json"
     files = glob.glob(search, recursive=True)
     return files
 
 
 def get_firewall_file_list():
-    search = r"C:\scripts\vlan_script\configs\**\show_interface_all.json"
+    search = r"C:\vlan_script_functions\configs\**\show_interface_all.json"
     files = glob.glob(search, recursive=True)
     return files
 
