@@ -1,0 +1,415 @@
+{
+    "CCT-NSW-MNCS-MCCB-AGG001": [
+        {
+            "VRF_NAME": "vPC_Keepalive",
+            "INTERFACE": "Po40",
+            "VLAN_ID": ""
+        }
+    ],
+    "CCT-NSW-MNCS-MCCB-AGG002": [
+        {
+            "VRF_NAME": "vPC_Keepalive",
+            "INTERFACE": "Po40",
+            "VLAN_ID": ""
+        }
+    ],
+    "CL7QLD-TCC-CORE01": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po23",
+            "VLAN_ID": ""
+        }
+    ],
+    "CL7QLD-TCC-CORE02": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po23",
+            "VLAN_ID": ""
+        }
+    ],
+    "CL7QLD-TCC-N93-01": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po23",
+            "VLAN_ID": ""
+        }
+    ],
+    "CL7QLD-TCC-N93-02": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po23",
+            "VLAN_ID": ""
+        }
+    ],
+    "EDNSW-MCCB-CORE01-CORE": [
+        {
+            "VRF_NAME": "VPC_KEEPALIVE",
+            "INTERFACE": "Eth3/29",
+            "VLAN_ID": ""
+        }
+    ],
+    "EDNSW-MCCB-CORE02-CORE": [
+        {
+            "VRF_NAME": "VPC_KEEPALIVE",
+            "INTERFACE": "Eth3/29",
+            "VLAN_ID": ""
+        }
+    ],
+    "EDNSW-MCCB-DVMS-SW01": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po147",
+            "VLAN_ID": ""
+        }
+    ],
+    "EDNSW-MCCB-DVMS-SW02": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po147",
+            "VLAN_ID": ""
+        }
+    ],
+    "NSWM2-EPCR-SW2": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po2",
+            "VLAN_ID": ""
+        }
+    ],
+    "NSWM2-EPCR-SW3": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po2",
+            "VLAN_ID": ""
+        }
+    ],
+    "NSWM2-MCCA-SW2": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po2",
+            "VLAN_ID": ""
+        }
+    ],
+    "NSWM2-MCCA-SW3": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po2",
+            "VLAN_ID": ""
+        }
+    ],
+    "NSWM2-MCCA-SW4": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po2",
+            "VLAN_ID": ""
+        }
+    ],
+    "NSWM2-MCCA-SW5": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po2",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-M5SW-DRS-SW-COR-01": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po147",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-M5SW-DRS-SW-COR-02": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po147",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-M5SW-MCC-SW-COR-01": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po147",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-M5SW-MCC-SW-COR-02": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po147",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-ACC-PRD-01": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po147",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-ACC-PRD-02": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po147",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-ACC-PRD-03": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po195",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-ACC-PRD-04": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po195",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-ACC-PRD-05": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po147",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-ACC-PRD-06": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po147",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-COR-PRD-01": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po23",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-COR-PRD-02": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po23",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-TOR-PRD-01": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po147",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-TOR-PRD-02": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po147",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-TOR-PRD-03": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po147",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-TOR-PRD-04": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po147",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-TOR-PRD-05": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po147",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-TOR-PRD-06": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po147",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-TOR-PRD-09": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po147",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-TOR-PRD-10": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po147",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-NSW-M2-EPCR-COR-PRD-01": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po2",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-NSW-M2-MCCA-COR-PRD-01": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po2",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-QLD-ALOC-TQIOP-SW-01": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po23",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-QLD-ALOC-TQIOP-SW-02": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po23",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-QLD-CL7-LG-SW-CCR-01": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po23",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-QLD-CL7-TQIOP-SW-01": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po23",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-QLD-CL7-TQIOP-SW-02": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po23",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-QLD-QIAN-TCC-SW-COR-01": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po23",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-QLD-QIAN-TCC-SW-COR-02": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po23",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-ACC-PRD-01": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po147",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-ACC-PRD-02": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po147",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-ACC-PRD-03": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po147",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-ACC-PRD-04": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po147",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-ACC-PRD-05": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po147",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-ACC-PRD-06": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po147",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-COR-PRD-01": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po23",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-COR-PRD-02": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po23",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-TOR-PRD-01": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po147",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-TOR-PRD-02": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po147",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-TOR-PRD-03": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po147",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-TOR-PRD-04": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po147",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-TOR-PRD-05": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po147",
+            "VLAN_ID": ""
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-TOR-PRD-06": [
+        {
+            "VRF_NAME": "vPC_management",
+            "INTERFACE": "Po147",
+            "VLAN_ID": ""
+        }
+    ]
+}

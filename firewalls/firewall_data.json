@@ -1,0 +1,1326 @@
+{
+  "ethernet1/1": {
+    "vlan": "Untagged",
+    "comment": NaN
+  },
+  "ethernet1/2": {
+    "vlan": "Untagged",
+    "comment": NaN
+  },
+  "ethernet1/3": {
+    "vlan": "Untagged",
+    "comment": NaN
+  },
+  "ethernet1/4": {
+    "vlan": "Untagged",
+    "comment": NaN
+  },
+  "ethernet1/5": {
+    "vlan": "Untagged",
+    "comment": NaN
+  },
+  "ethernet1/6": {
+    "vlan": "Untagged",
+    "comment": NaN
+  },
+  "ethernet1/7": {
+    "vlan": "Untagged",
+    "comment": NaN
+  },
+  "ethernet1/8": {
+    "vlan": "Untagged",
+    "comment": NaN
+  },
+  "ethernet1/9": {
+    "vlan": "Untagged",
+    "comment": NaN
+  },
+  "ethernet1/10": {
+    "vlan": "Untagged",
+    "comment": NaN
+  },
+  "ethernet1/11": {
+    "vlan": "Untagged",
+    "comment": NaN
+  },
+  "ethernet1/12": {
+    "vlan": "Untagged",
+    "comment": NaN
+  },
+  "ethernet1/13": {
+    "vlan": "Untagged",
+    "comment": NaN
+  },
+  "ethernet1/14": {
+    "vlan": "Untagged",
+    "comment": NaN
+  },
+  "ethernet1/15": {
+    "vlan": "Untagged",
+    "comment": NaN
+  },
+  "ethernet1/16": {
+    "vlan": "Untagged",
+    "comment": NaN
+  },
+  "ethernet1/17": {
+    "vlan": "Untagged",
+    "comment": NaN
+  },
+  "ethernet1/18": {
+    "vlan": "Untagged",
+    "comment": NaN
+  },
+  "ethernet1/19": {
+    "vlan": "Untagged",
+    "comment": "HA2 - primary interface"
+  },
+  "ethernet1/20": {
+    "vlan": "Untagged",
+    "comment": "HA2 - backup interface"
+  },
+  "ethernet1/21": {
+    "vlan": "Untagged",
+    "comment": NaN
+  },
+  "ethernet1/22": {
+    "vlan": "Untagged",
+    "comment": NaN
+  },
+  "ethernet1/23": {
+    "vlan": "Untagged",
+    "comment": NaN
+  },
+  "ethernet1/24": {
+    "vlan": "Untagged",
+    "comment": "Northbound_To_TR01"
+  },
+  "ae1": {
+    "vlan": "Untagged",
+    "comment": "Data traffic"
+  },
+  "ae1.2": {
+    "vlan": "2",
+    "comment": "none"
+  },
+  "ae1.3": {
+    "vlan": "3",
+    "comment": "none"
+  },
+  "ae1.4": {
+    "vlan": "4",
+    "comment": "TQ_Infrastructure_Management"
+  },
+  "ae1.8": {
+    "vlan": "8",
+    "comment": "NET_BTP_StreamsTraining"
+  },
+  "ae1.11": {
+    "vlan": "11",
+    "comment": "NSW-FW-HANDOFF"
+  },
+  "ae1.12": {
+    "vlan": "12",
+    "comment": "TQ_DR_ADMIN"
+  },
+  "ae1.14": {
+    "vlan": "14",
+    "comment": "none"
+  },
+  "ae1.15": {
+    "vlan": "15",
+    "comment": "none"
+  },
+  "ae1.16": {
+    "vlan": "16",
+    "comment": "TQ_Infrastructure_CCTV"
+  },
+  "ae1.17": {
+    "vlan": "17",
+    "comment": "none"
+  },
+  "ae1.19": {
+    "vlan": "19",
+    "comment": "NSW_DEV"
+  },
+  "ae1.21": {
+    "vlan": "21",
+    "comment": "none"
+  },
+  "ae1.31": {
+    "vlan": "31",
+    "comment": "Accenture_GLIDe_DEV"
+  },
+  "ae1.37": {
+    "vlan": "37",
+    "comment": "SHAREPOINT-DEV-USER-BKH"
+  },
+  "ae1.45": {
+    "vlan": "45",
+    "comment": "Infra-DR-Test"
+  },
+  "ae1.53": {
+    "vlan": "53",
+    "comment": "Waratah-Sandbox"
+  },
+  "ae1.58": {
+    "vlan": "58",
+    "comment": "NES_prod_DR_DB_server"
+  },
+  "ae1.63": {
+    "vlan": "63",
+    "comment": "TQ_dev-FFT-DRClient"
+  },
+  "ae1.64": {
+    "vlan": "64",
+    "comment": "TQ_dev-FFT-DRMgmt"
+  },
+  "ae1.68": {
+    "vlan": "68",
+    "comment": "bureau"
+  },
+  "ae1.69": {
+    "vlan": "69",
+    "comment": "TQ_prod-pri-sys-P-man"
+  },
+  "ae1.79": {
+    "vlan": "79",
+    "comment": "GLIDe_external_vip"
+  },
+  "ae1.81": {
+    "vlan": "81",
+    "comment": "GLIDe_prod_ext_admin_vs"
+  },
+  "ae1.82": {
+    "vlan": "82",
+    "comment": "GLIDe_app_dat_layer"
+  },
+  "ae1.90": {
+    "vlan": "90",
+    "comment": "TQ_Internet_Services"
+  },
+  "ae1.92": {
+    "vlan": "92",
+    "comment": "GLIDe_App_Dat_Dev"
+  },
+  "ae1.93": {
+    "vlan": "93",
+    "comment": "GLIDe_App_Prod_Stnby"
+  },
+  "ae1.96": {
+    "vlan": "96",
+    "comment": "GLIDe_Datstg_Migrate"
+  },
+  "ae1.103": {
+    "vlan": "103",
+    "comment": "TQ_Esx_DR_Linux-Apps"
+  },
+  "ae1.104": {
+    "vlan": "104",
+    "comment": "ops-lan"
+  },
+  "ae1.105": {
+    "vlan": "105",
+    "comment": "TQ_Esx_DR_Legacy"
+  },
+  "ae1.106": {
+    "vlan": "106",
+    "comment": "TQ_DR_Toll_Service"
+  },
+  "ae1.107": {
+    "vlan": "107",
+    "comment": "trust_epodatabase_server"
+  },
+  "ae1.108": {
+    "vlan": "108",
+    "comment": "semi_trust_epo_app_server"
+  },
+  "ae1.109": {
+    "vlan": "109",
+    "comment": "untrust_Agent_Handler"
+  },
+  "ae1.117": {
+    "vlan": "117",
+    "comment": "trust_epodatabase_server_second"
+  },
+  "ae1.118": {
+    "vlan": "118",
+    "comment": "semi_trust_epo_app_server_second"
+  },
+  "ae1.133": {
+    "vlan": "133",
+    "comment": "TQ_DR_Prod_Secure"
+  },
+  "ae1.141": {
+    "vlan": "141",
+    "comment": "bkh_waratah_ld_test"
+  },
+  "ae1.142": {
+    "vlan": "142",
+    "comment": "GLIDe_Prod_Deployment"
+  },
+  "ae1.144": {
+    "vlan": "144",
+    "comment": "GLIDe_Development"
+  },
+  "ae1.150": {
+    "vlan": "150",
+    "comment": "bkh_srv_mgmt"
+  },
+  "ae1.152": {
+    "vlan": "152",
+    "comment": "bkh_net_mgmt"
+  },
+  "ae1.160": {
+    "vlan": "160",
+    "comment": "TQ_General_Users"
+  },
+  "ae1.164": {
+    "vlan": "164",
+    "comment": "TUAcc_SSID"
+  },
+  "ae1.165": {
+    "vlan": "165",
+    "comment": "none"
+  },
+  "ae1.166": {
+    "vlan": "166",
+    "comment": "none"
+  },
+  "ae1.167": {
+    "vlan": "167",
+    "comment": "TQ_Terminal_Servers"
+  },
+  "ae1.174": {
+    "vlan": "174",
+    "comment": "BKH-DEV-CONFIDENTIAL-WEB"
+  },
+  "ae1.175": {
+    "vlan": "175",
+    "comment": "BKH-DEV-CONFIDENTIAL-APP"
+  },
+  "ae1.176": {
+    "vlan": "176",
+    "comment": "BKH-DEV-CONFIDENTIAL-DB"
+  },
+  "ae1.184": {
+    "vlan": "184",
+    "comment": "BKH-DEV-CompConfidential-WebApp"
+  },
+  "ae1.185": {
+    "vlan": "185",
+    "comment": "BKH-DEV-CompConfidential-DB"
+  },
+  "ae1.200": {
+    "vlan": "200",
+    "comment": "none"
+  },
+  "ae1.203": {
+    "vlan": "203",
+    "comment": "TQ_Non-Prod_Apps"
+  },
+  "ae1.204": {
+    "vlan": "204",
+    "comment": "NSW_SHARED_SERVICES_DB_STANDBY"
+  },
+  "ae1.205": {
+    "vlan": "205",
+    "comment": "VIC_SHARED_SERVICES_DB"
+  },
+  "ae1.206": {
+    "vlan": "206",
+    "comment": "VIC_SHARED_SERVICES_APP"
+  },
+  "ae1.207": {
+    "vlan": "207",
+    "comment": "VIC_Protected_App_LAN"
+  },
+  "ae1.209": {
+    "vlan": "209",
+    "comment": "Corp_Internal_Web_LAN"
+  },
+  "ae1.210": {
+    "vlan": "210",
+    "comment": "Corp_App_and_DB_LAN"
+  },
+  "ae1.230": {
+    "vlan": "230",
+    "comment": "Corp_Infrastructure_Services"
+  },
+  "ae1.233": {
+    "vlan": "233",
+    "comment": "VLAN233_CS-Data_NonProduction"
+  },
+  "ae1.244": {
+    "vlan": "244",
+    "comment": "BKH-PROD-CompConfidential-WebApp"
+  },
+  "ae1.245": {
+    "vlan": "245",
+    "comment": "BKH-PROD-CompConfidential-DB"
+  },
+  "ae1.246": {
+    "vlan": "246",
+    "comment": "MIT_IAM_Test_VLAN"
+  },
+  "ae1.247": {
+    "vlan": "247",
+    "comment": "BKH-PROD-HighlyConfident-WebApp"
+  },
+  "ae1.248": {
+    "vlan": "248",
+    "comment": "BKH-PROD-HighlyConfidential-DB"
+  },
+  "ae1.249": {
+    "vlan": "249",
+    "comment": "BKH_Protected_App_LAN"
+  },
+  "ae1.250": {
+    "vlan": "250",
+    "comment": "TQ_Link-to-FW"
+  },
+  "ae1.251": {
+    "vlan": "251",
+    "comment": "BKH-Prod-SharedServices-App"
+  },
+  "ae1.400": {
+    "vlan": "400",
+    "comment": "Corp_colo-lan-DR"
+  },
+  "ae1.430": {
+    "vlan": "430",
+    "comment": "UCP_Management"
+  },
+  "ae1.434": {
+    "vlan": "434",
+    "comment": "UCP_HEC"
+  },
+  "ae1.705": {
+    "vlan": "705",
+    "comment": "TQ_CDE_APPS"
+  },
+  "ae1.706": {
+    "vlan": "706",
+    "comment": "TQ_CDE_DB"
+  },
+  "ae1.800": {
+    "vlan": "800",
+    "comment": "ITS-VDI-Internal"
+  },
+  "ae1.801": {
+    "vlan": "801",
+    "comment": "ITS-VDI-External"
+  },
+  "ae1.902": {
+    "vlan": "902",
+    "comment": "ServiceNow_BKH"
+  },
+  "ae1.904": {
+    "vlan": "904",
+    "comment": "VDI_BKH_A"
+  },
+  "ae1.905": {
+    "vlan": "905",
+    "comment": "VDI_BKH_B"
+  },
+  "ae1.906": {
+    "vlan": "906",
+    "comment": "VDI_BKH_C"
+  },
+  "ae1.907": {
+    "vlan": "907",
+    "comment": "VDI_BKH_D"
+  },
+  "ae1.1016": {
+    "vlan": "1016",
+    "comment": "Corp_CUBE_LAN"
+  },
+  "ae1.1100": {
+    "vlan": "1100",
+    "comment": "f5_dev_extvip"
+  },
+  "ae1.1101": {
+    "vlan": "1101",
+    "comment": "f5_dev_extsnat"
+  },
+  "ae1.1104": {
+    "vlan": "1104",
+    "comment": "f5_glide_extsnat"
+  },
+  "ae1.1105": {
+    "vlan": "1105",
+    "comment": "f5_corp_extvip"
+  },
+  "ae1.1106": {
+    "vlan": "1106",
+    "comment": "f5_corp_extsnat"
+  },
+  "ae1.1108": {
+    "vlan": "1108",
+    "comment": "Glide_DR_User_Jumphost"
+  },
+  "ae1.1109": {
+    "vlan": "1109",
+    "comment": "GlideDR_Gantry_laptop"
+  },
+  "ae1.1111": {
+    "vlan": "1111",
+    "comment": "f5_dev_glide_extvip_admin"
+  },
+  "ae1.1205": {
+    "vlan": "1205",
+    "comment": "f5_corp_extvip_DR"
+  },
+  "ae1.1206": {
+    "vlan": "1206",
+    "comment": "f5_corp_extsnat_DR"
+  },
+  "ae1.1211": {
+    "vlan": "1211",
+    "comment": "BKH-CORP-FW_Handoff"
+  },
+  "ae1.1212": {
+    "vlan": "1212",
+    "comment": "BKH_TOLL-FW_Handoff"
+  },
+  "ae1.1213": {
+    "vlan": "1213",
+    "comment": "BKH_DevTest_CoreHandoff"
+  },
+  "ae1.1214": {
+    "vlan": "1214",
+    "comment": "GlideDR_CoreHandoff"
+  },
+  "ae1.1216": {
+    "vlan": "1216",
+    "comment": "#NSW-CORP-DR-FW-Handoff"
+  },
+  "ae1.1299": {
+    "vlan": "1299",
+    "comment": "test interface"
+  },
+  "ae1.1500": {
+    "vlan": "1500",
+    "comment": "BKH-Server-Subnet-GLIDe-DRT"
+  },
+  "ae1.1575": {
+    "vlan": "1575",
+    "comment": "Axway Server - 1575_EA_P_APP_SEC_TENANT_DR"
+  },
+  "ae1.1607": {
+    "vlan": "1607",
+    "comment": "1607_EA_DC1_P_Z1_GEN_vRA_wkld"
+  },
+  "ae1.1615": {
+    "vlan": "1615",
+    "comment": "1615_EA_DC1_P_Z1_SEC_vRA_wkld"
+  },
+  "ae1.1671": {
+    "vlan": "1671",
+    "comment": "1671_EA_DC1_P_Z2_GEN_vRA_wkld"
+  },
+  "ae1.1679": {
+    "vlan": "1679",
+    "comment": "1679_EA_DC1_P_Z2_SEC_vRA_wkld"
+  },
+  "ae1.1735": {
+    "vlan": "1735",
+    "comment": "1735_EA_DC1_P_Z3_GEN_vRA_wkld"
+  },
+  "ae1.1741": {
+    "vlan": "1741",
+    "comment": "1741_EA_DC1_P_Z3_SEC_vRA_wkld"
+  },
+  "ae1.1807": {
+    "vlan": "1807",
+    "comment": "1807_EA_DC1_D_Z1_GEN_vRA_wkld"
+  },
+  "ae1.1815": {
+    "vlan": "1815",
+    "comment": "1815_EA_DC1_D_Z1_SEC_vRA_wkld"
+  },
+  "ae1.1871": {
+    "vlan": "1871",
+    "comment": "1871_EA_DC1_D_Z2_GEN_vRA_wkld"
+  },
+  "ae1.1875": {
+    "vlan": "1875",
+    "comment": "1875_EA_N_APP_SEC_TENANT"
+  },
+  "ae1.1876": {
+    "vlan": "1876",
+    "comment": "Axway Server - 1876_EA_N_APP_SEC_TENANT"
+  },
+  "ae1.1879": {
+    "vlan": "1879",
+    "comment": NaN
+  },
+  "ae1.1935": {
+    "vlan": "1935",
+    "comment": "1935_EA_DC1_D_Z3_GEN_vRA_wkld"
+  },
+  "ae1.1941": {
+    "vlan": "1941",
+    "comment": "1941_EA_DC1_D_Z3_SEC_vRA_wkld"
+  },
+  "ae1.2010": {
+    "vlan": "2010",
+    "comment": "BKH_PRD_DR_HighlyConfidential_DB"
+  },
+  "ae1.2048": {
+    "vlan": "2048",
+    "comment": "Corp_Jump_vlan_DR"
+  },
+  "ae1.2128": {
+    "vlan": "2128",
+    "comment": "FireEye_Management_BKH"
+  },
+  "ae1.2267": {
+    "vlan": "2267",
+    "comment": "Call Recording SVI PCI CHG0166910"
+  },
+  "ae1.2502": {
+    "vlan": "2502",
+    "comment": "TQ Backup Network"
+  },
+  "ae1.2801": {
+    "vlan": "2801",
+    "comment": "VDI_ITS_Internal_Z3"
+  },
+  "ae1.3305": {
+    "vlan": "3305",
+    "comment": "Axway Edge Server - 3305_DMZ_EXT_Internet_DR"
+  },
+  "ae1.3832": {
+    "vlan": "3832",
+    "comment": "3832_EA_P_PRS_SEC_ADC_XCONN"
+  },
+  "ae5": {
+    "vlan": "Untagged",
+    "comment": "Southbound_to_Swimlanes_VRFs"
+  },
+  "ae5.212": {
+    "vlan": "212",
+    "comment": "EA_BMS_To_COR"
+  },
+  "ae5.1250": {
+    "vlan": "1250",
+    "comment": "1250_LC_DC2_CORP_DATA"
+  },
+  "ae5.1251": {
+    "vlan": "1251",
+    "comment": "1251_LC_DC2_TERMINAL_SRV"
+  },
+  "ae5.1252": {
+    "vlan": "1252",
+    "comment": "1252_LC_N_DC2_CENTRAL_APPS"
+  },
+  "ae5.1253": {
+    "vlan": "1253",
+    "comment": "1253_LC_DC2_CORP_DATA_DEV"
+  },
+  "ae5.1254": {
+    "vlan": "1254",
+    "comment": "1254_LC_DC2_DEV_GENERAL"
+  },
+  "ae5.1300": {
+    "vlan": "1300",
+    "comment": "1300_MSS_DC1_N_APP_HIGH_TENANT_1"
+  },
+  "ae5.1301": {
+    "vlan": "1301",
+    "comment": "1301_MSS_DC1_N_APP_HIGH_ESX-OOB"
+  },
+  "ae5.1302": {
+    "vlan": "1302",
+    "comment": "1302_MSS_DC1_N_APP_HIGH_TENANT_3"
+  },
+  "ae5.1303": {
+    "vlan": "1303",
+    "comment": "1303_MSS_DC1_N_APP_HIGH_TENANT_4"
+  },
+  "ae5.1304": {
+    "vlan": "1304",
+    "comment": "1304_MSS_DC1_N_APP_HIGH_TENANT_5"
+  },
+  "ae5.1305": {
+    "vlan": "1305",
+    "comment": "1305_MSS_DC1_N_APP_HIGH_TENANT_6"
+  },
+  "ae5.1306": {
+    "vlan": "1306",
+    "comment": "1306_MSS_DC1_N_APP_HIGH_TENANT_7"
+  },
+  "ae5.1307": {
+    "vlan": "1307",
+    "comment": "1307_MSS_DC1_N_APP_HIGH_TENANT_8"
+  },
+  "ae5.1308": {
+    "vlan": "1308",
+    "comment": "1308_MSS_DC1_N_APP_MED_TENANT_1"
+  },
+  "ae5.1309": {
+    "vlan": "1309",
+    "comment": "1309_MSS_DC1_N_APP_MED_TENANT_2"
+  },
+  "ae5.1310": {
+    "vlan": "1310",
+    "comment": "1310_MSS_DC1_N_APP_MED_ESX-FRONT"
+  },
+  "ae5.1311": {
+    "vlan": "1311",
+    "comment": "1311_MSS_DC1_N_APP_MED_TENANT_4"
+  },
+  "ae5.1312": {
+    "vlan": "1312",
+    "comment": "1312_MSS_DC1_N_APP_MED_TENANT_5"
+  },
+  "ae5.1313": {
+    "vlan": "1313",
+    "comment": "1313_MSS_DC1_N_APP_MED_TENANT_6"
+  },
+  "ae5.1314": {
+    "vlan": "1314",
+    "comment": "1314_MSS_DC1_N_APP_MED_TENANT_7"
+  },
+  "ae5.1315": {
+    "vlan": "1315",
+    "comment": "1315_MSS_DC1_N_APP_MED_TENANT_8"
+  },
+  "ae5.1316": {
+    "vlan": "1316",
+    "comment": "1316_MSS_DC1_N_APP_LOW_TENANT_1"
+  },
+  "ae5.1317": {
+    "vlan": "1317",
+    "comment": "1317_MSS_DC1_N_APP_LOW_TENANT_2"
+  },
+  "ae5.1318": {
+    "vlan": "1318",
+    "comment": "1318_MSS_DC1_N_APP_LOW_TENANT_3"
+  },
+  "ae5.1319": {
+    "vlan": "1319",
+    "comment": "1319_MSS_DC1_N_APP_LOW_TENANT_4"
+  },
+  "ae5.1320": {
+    "vlan": "1320",
+    "comment": "1320_MSS_DC1_N_APP_LOW_TENANT_5"
+  },
+  "ae5.1321": {
+    "vlan": "1321",
+    "comment": "1321_MSS_DC1_N_APP_LOW_TENANT_6"
+  },
+  "ae5.1322": {
+    "vlan": "1322",
+    "comment": "1322_MSS_DC1_N_APP_LOW_TENANT_7"
+  },
+  "ae5.1323": {
+    "vlan": "1323",
+    "comment": "1323_MSS_DC1_N_APP_LOW_TENANT_8"
+  },
+  "ae5.1332": {
+    "vlan": "1332",
+    "comment": "1332_MSS_DC1_N_DAT_HIGH_TENANT_1"
+  },
+  "ae5.1333": {
+    "vlan": "1333",
+    "comment": "1333_MSS_DC1_N_DAT_HIGH_TENANT_2"
+  },
+  "ae5.1334": {
+    "vlan": "1334",
+    "comment": "1334_MSS_DC1_N_DAT_HIGH_TENANT_3"
+  },
+  "ae5.1335": {
+    "vlan": "1335",
+    "comment": "1335_MSS_DC1_N_DAT_HIGH_TENANT_4"
+  },
+  "ae5.1336": {
+    "vlan": "1336",
+    "comment": "1336_MSS_DC1_N_DAT_HIGH_TENANT_5"
+  },
+  "ae5.1337": {
+    "vlan": "1337",
+    "comment": "1337_MSS_DC1_N_DAT_HIGH_TENANT_6"
+  },
+  "ae5.1338": {
+    "vlan": "1338",
+    "comment": "1338_MSS_DC1_N_DAT_HIGH_TENANT_7"
+  },
+  "ae5.1339": {
+    "vlan": "1339",
+    "comment": "1339_MSS_DC1_N_DAT_HIGH_TENANT_8"
+  },
+  "ae5.1340": {
+    "vlan": "1340",
+    "comment": "1340_MSS_DC1_N_DAT_MED_TENANT_1"
+  },
+  "ae5.1341": {
+    "vlan": "1341",
+    "comment": "1341_MSS_DC1_N_DAT_MED_TENANT_2"
+  },
+  "ae5.1342": {
+    "vlan": "1342",
+    "comment": "1342_MSS_DC1_N_DAT_MED_TENANT_3"
+  },
+  "ae5.1343": {
+    "vlan": "1343",
+    "comment": "1343_MSS_DC1_N_DAT_MED_TENANT_4"
+  },
+  "ae5.1344": {
+    "vlan": "1344",
+    "comment": "1344_MSS_DC1_N_DAT_MED_TENANT_5"
+  },
+  "ae5.1345": {
+    "vlan": "1345",
+    "comment": "1345_MSS_DC1_N_DAT_MED_TENANT_6"
+  },
+  "ae5.1346": {
+    "vlan": "1346",
+    "comment": "1346_MSS_DC1_N_DAT_MED_TENANT_7"
+  },
+  "ae5.1347": {
+    "vlan": "1347",
+    "comment": "1347_MSS_DC1_N_DAT_MED_TENANT_8"
+  },
+  "ae5.1348": {
+    "vlan": "1348",
+    "comment": "1348_MSS_DC1_N_DAT_LOW_TENANT_1"
+  },
+  "ae5.1349": {
+    "vlan": "1349",
+    "comment": "1349_MSS_DC1_N_DAT_LOW_TENANT_2"
+  },
+  "ae5.1350": {
+    "vlan": "1350",
+    "comment": "1350_MSS_DC1_N_DAT_LOW_TENANT_3"
+  },
+  "ae5.1351": {
+    "vlan": "1351",
+    "comment": "1351_MSS_DC1_N_DAT_LOW_TENANT_4"
+  },
+  "ae5.1352": {
+    "vlan": "1352",
+    "comment": "1352_MSS_DC1_N_DAT_LOW_TENANT_5"
+  },
+  "ae5.1353": {
+    "vlan": "1353",
+    "comment": "1353_MSS_DC1_N_DAT_LOW_TENANT_6"
+  },
+  "ae5.1354": {
+    "vlan": "1354",
+    "comment": "1354_MSS_DC1_N_DAT_LOW_TENANT_7"
+  },
+  "ae5.1355": {
+    "vlan": "1355",
+    "comment": "1355_MSS_DC1_N_DAT_LOW_TENANT_8"
+  },
+  "ae5.1611": {
+    "vlan": "1611",
+    "comment": "1611_EA_P_DAT_SEC_TENANT1"
+  },
+  "ae5.1677": {
+    "vlan": "1677",
+    "comment": "1677_EA_P_APP_SEC_TENANT1"
+  },
+  "ae5.1811": {
+    "vlan": "1811",
+    "comment": "1811_EA_N_DAT_SEC_TENANT1"
+  },
+  "ae5.1877": {
+    "vlan": "1877",
+    "comment": "1877_EA_N_APP_SEC_TENANT1"
+  },
+  "ae5.2500": {
+    "vlan": "2500",
+    "comment": "MSS_APP_HIGH"
+  },
+  "ae5.2501": {
+    "vlan": "2501",
+    "comment": "MSS_APP_HIGH"
+  },
+  "ae5.2503": {
+    "vlan": "2503",
+    "comment": "MSS_APP_HIGH"
+  },
+  "ae5.2504": {
+    "vlan": "2504",
+    "comment": "MSS_APP_HIGH"
+  },
+  "ae5.2505": {
+    "vlan": "2505",
+    "comment": "MSS_APP_HIGH"
+  },
+  "ae5.2506": {
+    "vlan": "2506",
+    "comment": "MSS_APP_HIGH"
+  },
+  "ae5.2507": {
+    "vlan": "2507",
+    "comment": "MSS_APP_HIGH"
+  },
+  "ae5.2508": {
+    "vlan": "2508",
+    "comment": "MSS_APP_MED"
+  },
+  "ae5.2509": {
+    "vlan": "2509",
+    "comment": "MSS_APP_MED"
+  },
+  "ae5.2510": {
+    "vlan": "2510",
+    "comment": "MSS_APP_MED"
+  },
+  "ae5.2511": {
+    "vlan": "2511",
+    "comment": "MSS_APP_MED"
+  },
+  "ae5.2512": {
+    "vlan": "2512",
+    "comment": "MSS_APP_MED"
+  },
+  "ae5.2513": {
+    "vlan": "2513",
+    "comment": "MSS_APP_MED"
+  },
+  "ae5.2514": {
+    "vlan": "2514",
+    "comment": "MSS_APP_MED"
+  },
+  "ae5.2515": {
+    "vlan": "2515",
+    "comment": "MSS_APP_MED"
+  },
+  "ae5.2516": {
+    "vlan": "2516",
+    "comment": "MSS_APP_LOW"
+  },
+  "ae5.2517": {
+    "vlan": "2517",
+    "comment": "MSS_APP_LOW"
+  },
+  "ae5.2518": {
+    "vlan": "2518",
+    "comment": "MSS_APP_LOW"
+  },
+  "ae5.2519": {
+    "vlan": "2519",
+    "comment": "MSS_APP_LOW"
+  },
+  "ae5.2520": {
+    "vlan": "2520",
+    "comment": "MSS_APP_LOW"
+  },
+  "ae5.2521": {
+    "vlan": "2521",
+    "comment": "MSS_APP_LOW"
+  },
+  "ae5.2522": {
+    "vlan": "2522",
+    "comment": "MSS_APP_LOW"
+  },
+  "ae5.2523": {
+    "vlan": "2523",
+    "comment": "MSS_APP_LOW"
+  },
+  "ae5.2532": {
+    "vlan": "2532",
+    "comment": "MSS_DAT_HIGH"
+  },
+  "ae5.2533": {
+    "vlan": "2533",
+    "comment": "MSS_DAT_HIGH"
+  },
+  "ae5.2534": {
+    "vlan": "2534",
+    "comment": "MSS_DAT_HIGH"
+  },
+  "ae5.2535": {
+    "vlan": "2535",
+    "comment": "MSS_DAT_HIGH"
+  },
+  "ae5.2536": {
+    "vlan": "2536",
+    "comment": "MSS_DAT_HIGH"
+  },
+  "ae5.2537": {
+    "vlan": "2537",
+    "comment": "MSS_DAT_HIGH"
+  },
+  "ae5.2538": {
+    "vlan": "2538",
+    "comment": "MSS_DAT_HIGH"
+  },
+  "ae5.2539": {
+    "vlan": "2539",
+    "comment": "MSS_DAT_HIGH"
+  },
+  "ae5.2540": {
+    "vlan": "2540",
+    "comment": "MSS_DAT_MED"
+  },
+  "ae5.2541": {
+    "vlan": "2541",
+    "comment": "MSS_DAT_MED"
+  },
+  "ae5.2542": {
+    "vlan": "2542",
+    "comment": "MSS_DAT_MED"
+  },
+  "ae5.2543": {
+    "vlan": "2543",
+    "comment": "MSS_DAT_MED"
+  },
+  "ae5.2544": {
+    "vlan": "2544",
+    "comment": "MSS_DAT_MED"
+  },
+  "ae5.2545": {
+    "vlan": "2545",
+    "comment": "MSS_DAT_MED"
+  },
+  "ae5.2546": {
+    "vlan": "2546",
+    "comment": "MSS_DAT_MED"
+  },
+  "ae5.2547": {
+    "vlan": "2547",
+    "comment": "MSS_DAT_MED"
+  },
+  "ae5.2548": {
+    "vlan": "2548",
+    "comment": "MSS_DAT_LOW"
+  },
+  "ae5.2549": {
+    "vlan": "2549",
+    "comment": "MSS_DAT_LOW"
+  },
+  "ae5.2550": {
+    "vlan": "2550",
+    "comment": "MSS_DAT_LOW"
+  },
+  "ae5.2551": {
+    "vlan": "2551",
+    "comment": "MSS_DAT_LOW"
+  },
+  "ae5.2552": {
+    "vlan": "2552",
+    "comment": "MSS_DAT_LOW"
+  },
+  "ae5.2553": {
+    "vlan": "2553",
+    "comment": "MSS_DAT_LOW"
+  },
+  "ae5.2554": {
+    "vlan": "2554",
+    "comment": "MSS_DAT_LOW"
+  },
+  "ae5.2555": {
+    "vlan": "2555",
+    "comment": "MSS_DAT_LOW"
+  },
+  "ae5.2811": {
+    "vlan": "2811",
+    "comment": "2811_ITS_DC1_P_Z3_SAILPOINT"
+  },
+  "ae5.2812": {
+    "vlan": "2812",
+    "comment": "2812_ITS_DC1_P_Z3_JUMPHOSTS"
+  },
+  "ae5.2813": {
+    "vlan": "2813",
+    "comment": "2813_ITS_DC1_P_Z3_GENETEC"
+  },
+  "ae5.2814": {
+    "vlan": "2814",
+    "comment": "2814_ITS_DC2_N_Z3_GENETEC"
+  },
+  "ae5.2820": {
+    "vlan": "2820",
+    "comment": "2820_ITS_DC1_P_Z35_AD_SUPPORTINGSERVICES"
+  },
+  "ae5.2823": {
+    "vlan": "2823",
+    "comment": "2823_ITS_DC1_P_Z35_JUMPHOSTS"
+  },
+  "ae5.2824": {
+    "vlan": "2824",
+    "comment": "2824_ITS_DC1_P_Z35_ACTIVE_DIRECTORY"
+  },
+  "ae5.2825": {
+    "vlan": "2825",
+    "comment": "2825_ITS_DC1_P_Z35_SAILPOINT"
+  },
+  "ae5.2827": {
+    "vlan": "2827",
+    "comment": "2827_ITS_DC2_P_Z35_SEC_SHARED"
+  },
+  "ae5.2830": {
+    "vlan": "2830",
+    "comment": "2830_ITS_DC2_N_Z35_AD_SUPPORTINGSERVICES"
+  },
+  "ae5.2833": {
+    "vlan": "2833",
+    "comment": "2833_ITS_DC2_N_Z35_JUMPHOSTS"
+  },
+  "ae5.2834": {
+    "vlan": "2834",
+    "comment": "2834_ITS_DC2_N_Z35_ACTIVE_DIRECTORY"
+  },
+  "ae5.2835": {
+    "vlan": "2835",
+    "comment": "2835_ITS_DC2_N_Z35_SAILPOINT"
+  },
+  "ae5.3683": {
+    "vlan": "3683",
+    "comment": "MSS_DC2_N_APP_HIGH_ADC_XCONN"
+  },
+  "ae5.3815": {
+    "vlan": "3815",
+    "comment": "EA_FW-DAT_GEN_VRF"
+  },
+  "ae5.3816": {
+    "vlan": "3816",
+    "comment": "EA_FW-DAT_SEC_VRF"
+  },
+  "ae5.3825": {
+    "vlan": "3825",
+    "comment": "EA_FW-APP_GEN_VRF"
+  },
+  "ae5.3826": {
+    "vlan": "3826",
+    "comment": "EA_FW-APP_SEC_VRF"
+  },
+  "ae5.3835": {
+    "vlan": "3835",
+    "comment": "EA_FW-PRS_GEN_VRF"
+  },
+  "ae5.3836": {
+    "vlan": "3836",
+    "comment": "EA_FW-PRS_SEC_VRF"
+  },
+  "ae5.3861": {
+    "vlan": "3861",
+    "comment": "ITS_FW-ITS_CORE_VRF"
+  },
+  "ae5.3880": {
+    "vlan": "3880",
+    "comment": "MSS_FW-MSS_AGG_VRF"
+  },
+  "ae5.3881": {
+    "vlan": "3881",
+    "comment": "EA_FW-MSS_AGG_VRF"
+  },
+  "ae5.3883": {
+    "vlan": "3883",
+    "comment": "Splunk Handoff VLAN"
+  },
+  "ae5.3884": {
+    "vlan": "3884",
+    "comment": NaN
+  },
+  "ae6": {
+    "vlan": "Untagged",
+    "comment": NaN
+  },
+  "ae6.540": {
+    "vlan": "540",
+    "comment": "EA_FW-TR01-02"
+  },
+  "ae6.580": {
+    "vlan": "580",
+    "comment": "ITS_FW-TR01-02"
+  },
+  "ae6.588": {
+    "vlan": "588",
+    "comment": "MSS_FW-TR01-02"
+  },
+  "ae1.18": {
+    "vlan": "18",
+    "comment": "VLAN0018"
+  },
+  "ae1.28": {
+    "vlan": "28",
+    "comment": "VIC-DC-Roadside"
+  },
+  "ae1.50": {
+    "vlan": "50",
+    "comment": "MIT-PCI_M2"
+  },
+  "ae1.80": {
+    "vlan": "80",
+    "comment": "GLIDe_web_layer"
+  },
+  "ae1.83": {
+    "vlan": "83",
+    "comment": "GLIDe_Restricted_LAN"
+  },
+  "ae1.84": {
+    "vlan": "84",
+    "comment": "MIT-Data_Migration_Network"
+  },
+  "ae1.89": {
+    "vlan": "89",
+    "comment": "Dynatrace_PCI"
+  },
+  "ae1.112": {
+    "vlan": "112",
+    "comment": "tushared_services"
+  },
+  "ae1.113": {
+    "vlan": "113",
+    "comment": "Facilities_Management-MIT"
+  },
+  "ae1.149": {
+    "vlan": "149",
+    "comment": "mit_network_mgmt"
+  },
+  "ae1.163": {
+    "vlan": "163",
+    "comment": "TuPDA_WLAN"
+  },
+  "ae1.181": {
+    "vlan": "181",
+    "comment": "MIT-DEV-CompConfidential-WebApp"
+  },
+  "ae1.182": {
+    "vlan": "182",
+    "comment": "MIT-DEV-CompConfidential-DB"
+  },
+  "ae1.215": {
+    "vlan": "215",
+    "comment": "Corp_PCI_LAN"
+  },
+  "ae1.216": {
+    "vlan": "216",
+    "comment": "Corp_CUBE_LAN"
+  },
+  "ae1.229": {
+    "vlan": "229",
+    "comment": "Corp_Infrastructure_Services"
+  },
+  "ae1.241": {
+    "vlan": "241",
+    "comment": "MIT-PROD-CompConfidential-WebApp"
+  },
+  "ae1.242": {
+    "vlan": "242",
+    "comment": "MIT-PROD-CompConfidential-DB"
+  },
+  "ae1.413": {
+    "vlan": "413",
+    "comment": "Terminal_Server"
+  },
+  "ae1.600": {
+    "vlan": "600",
+    "comment": "WM7_Dev_Management"
+  },
+  "ae1.601": {
+    "vlan": "601",
+    "comment": "WM7_Dev_Users"
+  },
+  "ae1.602": {
+    "vlan": "602",
+    "comment": "WM7_Dev_Corporate"
+  },
+  "ae1.603": {
+    "vlan": "603",
+    "comment": "WM7_Dev_Protected"
+  },
+  "ae1.604": {
+    "vlan": "604",
+    "comment": "WM7_Dev_PCI"
+  },
+  "ae1.605": {
+    "vlan": "605",
+    "comment": "WM7_Dev_DMZ"
+  },
+  "ae1.802": {
+    "vlan": "802",
+    "comment": "ServiceNow_MIT"
+  },
+  "ae1.804": {
+    "vlan": "804",
+    "comment": "VDI_A"
+  },
+  "ae1.805": {
+    "vlan": "805",
+    "comment": "VDI_B"
+  },
+  "ae1.806": {
+    "vlan": "806",
+    "comment": "VDI_C"
+  },
+  "ae1.807": {
+    "vlan": "807",
+    "comment": "VDI_D"
+  },
+  "ae1.1017": {
+    "vlan": "1017",
+    "comment": "Highly_Conf_Active_Active_Web"
+  },
+  "ae1.1018": {
+    "vlan": "1018",
+    "comment": "Highly_Conf_Active_Active_DB"
+  },
+  "ae1.1128": {
+    "vlan": "1128",
+    "comment": "FireEye_Management_MIT"
+  },
+  "ae1.1201": {
+    "vlan": "1201",
+    "comment": "TUVIC-CORP-FW_Core_Handoff"
+  },
+  "ae1.1202": {
+    "vlan": "1202",
+    "comment": "TUVIC-TOLL-FW_Core_Handoff"
+  },
+  "ae1.1203": {
+    "vlan": "1203",
+    "comment": "TUVIC-DEVTEST-FW_Core_Handoff"
+  },
+  "ae1.1667": {
+    "vlan": "1667",
+    "comment": "App_General_Z2"
+  },
+  "ae1.1675": {
+    "vlan": "1675",
+    "comment": "Axway Server - 1675_EA_P_APP_SEC_TENANT"
+  },
+  "ae1.1676": {
+    "vlan": "1676",
+    "comment": "Axway Server - 1676_EA_P_APP_SEC_TENANT"
+  },
+  "ae1.2902": {
+    "vlan": "2902",
+    "comment": "2902_CU_DC1_COD_VPNUSR"
+  },
+  "ae1.3821": {
+    "vlan": "3821",
+    "comment": "ADC_Transit_Z3"
+  },
+  "ae5.2502": {
+    "vlan": "2502",
+    "comment": "2502_MSS_DC1_P_APP_HIGH_TENANT3"
+  },
+  "ae5.2807": {
+    "vlan": "2807",
+    "comment": "2807_ITS_DC1_P_Z3_SNOW"
+  },
+  "ae5.3843": {
+    "vlan": "3843",
+    "comment": "PC_FW-PC_APP_VR"
+  },
+  "ae5.3845": {
+    "vlan": "3845",
+    "comment": "PC_FW-PC_PRS_VR"
+  },
+  "ae5.3882": {
+    "vlan": "3882",
+    "comment": "PC_FW-MSS_AGG_VRF"
+  },
+  "ae6.548": {
+    "vlan": "548",
+    "comment": "PC_FW-TR01-0"
+  }
+}

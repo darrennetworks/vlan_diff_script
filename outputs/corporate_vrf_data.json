@@ -1,0 +1,1765 @@
+{
+    "TU-ME1-SW-CRP-01": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan63",
+            "VLAN_ID": "63"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan70",
+            "VLAN_ID": "70"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan560",
+            "VLAN_ID": "560"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3700",
+            "VLAN_ID": "3700"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3701",
+            "VLAN_ID": "3701"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3702",
+            "VLAN_ID": "3702"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3703",
+            "VLAN_ID": "3703"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3704",
+            "VLAN_ID": "3704"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3705",
+            "VLAN_ID": "3705"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3706",
+            "VLAN_ID": "3706"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3707",
+            "VLAN_ID": "3707"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3708",
+            "VLAN_ID": "3708"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3709",
+            "VLAN_ID": "3709"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3710",
+            "VLAN_ID": "3710"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3711",
+            "VLAN_ID": "3711"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3712",
+            "VLAN_ID": "3712"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3713",
+            "VLAN_ID": "3713"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3714",
+            "VLAN_ID": "3714"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3715",
+            "VLAN_ID": "3715"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3716",
+            "VLAN_ID": "3716"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3717",
+            "VLAN_ID": "3717"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3718",
+            "VLAN_ID": "3718"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3719",
+            "VLAN_ID": "3719"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3720",
+            "VLAN_ID": "3720"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3721",
+            "VLAN_ID": "3721"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3722",
+            "VLAN_ID": "3722"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3723",
+            "VLAN_ID": "3723"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3724",
+            "VLAN_ID": "3724"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3725",
+            "VLAN_ID": "3725"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3726",
+            "VLAN_ID": "3726"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3727",
+            "VLAN_ID": "3727"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3728",
+            "VLAN_ID": "3728"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3729",
+            "VLAN_ID": "3729"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3730",
+            "VLAN_ID": "3730"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3731",
+            "VLAN_ID": "3731"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3732",
+            "VLAN_ID": "3732"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3733",
+            "VLAN_ID": "3733"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3734",
+            "VLAN_ID": "3734"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3735",
+            "VLAN_ID": "3735"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3736",
+            "VLAN_ID": "3736"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3737",
+            "VLAN_ID": "3737"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3738",
+            "VLAN_ID": "3738"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3739",
+            "VLAN_ID": "3739"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3740",
+            "VLAN_ID": "3740"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3741",
+            "VLAN_ID": "3741"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3742",
+            "VLAN_ID": "3742"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3743",
+            "VLAN_ID": "3743"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3745",
+            "VLAN_ID": "3745"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3746",
+            "VLAN_ID": "3746"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3747",
+            "VLAN_ID": "3747"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3748",
+            "VLAN_ID": "3748"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3749",
+            "VLAN_ID": "3749"
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-ACC-PRD-01": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan152",
+            "VLAN_ID": "152"
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-ACC-PRD-02": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan152",
+            "VLAN_ID": "152"
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-ACC-PRD-03": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan152",
+            "VLAN_ID": "152"
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-ACC-PRD-04": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan152",
+            "VLAN_ID": "152"
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-ACC-PRD-05": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan152",
+            "VLAN_ID": "152"
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-ACC-PRD-06": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan152",
+            "VLAN_ID": "152"
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-COR-PRD-01": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan21",
+            "VLAN_ID": "21"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan22",
+            "VLAN_ID": "22"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan29",
+            "VLAN_ID": "29"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan30",
+            "VLAN_ID": "30"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan41",
+            "VLAN_ID": "41"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan52",
+            "VLAN_ID": "52"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan101",
+            "VLAN_ID": "101"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan147",
+            "VLAN_ID": "147"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan170",
+            "VLAN_ID": "170"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan250",
+            "VLAN_ID": "250"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan500",
+            "VLAN_ID": "500"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan504",
+            "VLAN_ID": "504"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan701",
+            "VLAN_ID": "701"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan702",
+            "VLAN_ID": "702"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan703",
+            "VLAN_ID": "703"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan1204",
+            "VLAN_ID": "1204"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan1211",
+            "VLAN_ID": "1211"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan1212",
+            "VLAN_ID": "1212"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan1213",
+            "VLAN_ID": "1213"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan1214",
+            "VLAN_ID": "1214"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan1215",
+            "VLAN_ID": "1215"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan1216",
+            "VLAN_ID": "1216"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan1299",
+            "VLAN_ID": "1299"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan1614",
+            "VLAN_ID": "1614"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3300",
+            "VLAN_ID": "3300"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3366",
+            "VLAN_ID": "3366"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3850",
+            "VLAN_ID": "3850"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3854",
+            "VLAN_ID": "3854"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3858",
+            "VLAN_ID": "3858"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3859",
+            "VLAN_ID": "3859"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3878",
+            "VLAN_ID": "3878"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3893",
+            "VLAN_ID": "3893"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3896",
+            "VLAN_ID": "3896"
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-COR-PRD-02": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan21",
+            "VLAN_ID": "21"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan22",
+            "VLAN_ID": "22"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan29",
+            "VLAN_ID": "29"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan30",
+            "VLAN_ID": "30"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan41",
+            "VLAN_ID": "41"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan52",
+            "VLAN_ID": "52"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan101",
+            "VLAN_ID": "101"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan147",
+            "VLAN_ID": "147"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan170",
+            "VLAN_ID": "170"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan250",
+            "VLAN_ID": "250"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan500",
+            "VLAN_ID": "500"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan504",
+            "VLAN_ID": "504"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan701",
+            "VLAN_ID": "701"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan702",
+            "VLAN_ID": "702"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan703",
+            "VLAN_ID": "703"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan1204",
+            "VLAN_ID": "1204"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan1211",
+            "VLAN_ID": "1211"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan1212",
+            "VLAN_ID": "1212"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan1213",
+            "VLAN_ID": "1213"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan1214",
+            "VLAN_ID": "1214"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan1215",
+            "VLAN_ID": "1215"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan1216",
+            "VLAN_ID": "1216"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan1299",
+            "VLAN_ID": "1299"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan1614",
+            "VLAN_ID": "1614"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3300",
+            "VLAN_ID": "3300"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3851",
+            "VLAN_ID": "3851"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3855",
+            "VLAN_ID": "3855"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3857",
+            "VLAN_ID": "3857"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3858",
+            "VLAN_ID": "3858"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3878",
+            "VLAN_ID": "3878"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3893",
+            "VLAN_ID": "3893"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3897",
+            "VLAN_ID": "3897"
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-TOR-MGT-01": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan152",
+            "VLAN_ID": "152"
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-TOR-MGT-02": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan152",
+            "VLAN_ID": "152"
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-TOR-MGT-03": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan152",
+            "VLAN_ID": "152"
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-TOR-MGT-04": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan152",
+            "VLAN_ID": "152"
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-TOR-MGT-05": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan152",
+            "VLAN_ID": "152"
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-TOR-MGT-06": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan152",
+            "VLAN_ID": "152"
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-TOR-MGT-07": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan152",
+            "VLAN_ID": "152"
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-TOR-MGT-08": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan152",
+            "VLAN_ID": "152"
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-TOR-MGT-09": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan152",
+            "VLAN_ID": "152"
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-TOR-PRD-01": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan152",
+            "VLAN_ID": "152"
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-TOR-PRD-02": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan152",
+            "VLAN_ID": "152"
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-TOR-PRD-03": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan152",
+            "VLAN_ID": "152"
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-TOR-PRD-04": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan152",
+            "VLAN_ID": "152"
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-TOR-PRD-05": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan152",
+            "VLAN_ID": "152"
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-TOR-PRD-06": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan152",
+            "VLAN_ID": "152"
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-TOR-PRD-07": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan152",
+            "VLAN_ID": "152"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan2502",
+            "VLAN_ID": "2502"
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-TOR-PRD-09": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan152",
+            "VLAN_ID": "152"
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-TOR-PRD-10": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan152",
+            "VLAN_ID": "152"
+        }
+    ],
+    "TU-SY2-SW-CRP-01": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan63",
+            "VLAN_ID": "63"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan70",
+            "VLAN_ID": "70"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan560",
+            "VLAN_ID": "560"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3745",
+            "VLAN_ID": "3745"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3746",
+            "VLAN_ID": "3746"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3747",
+            "VLAN_ID": "3747"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3750",
+            "VLAN_ID": "3750"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3751",
+            "VLAN_ID": "3751"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3752",
+            "VLAN_ID": "3752"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3753",
+            "VLAN_ID": "3753"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3754",
+            "VLAN_ID": "3754"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3755",
+            "VLAN_ID": "3755"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3756",
+            "VLAN_ID": "3756"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3757",
+            "VLAN_ID": "3757"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3758",
+            "VLAN_ID": "3758"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3759",
+            "VLAN_ID": "3759"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3760",
+            "VLAN_ID": "3760"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3761",
+            "VLAN_ID": "3761"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3762",
+            "VLAN_ID": "3762"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3763",
+            "VLAN_ID": "3763"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3764",
+            "VLAN_ID": "3764"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3765",
+            "VLAN_ID": "3765"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3766",
+            "VLAN_ID": "3766"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3767",
+            "VLAN_ID": "3767"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3768",
+            "VLAN_ID": "3768"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3769",
+            "VLAN_ID": "3769"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3770",
+            "VLAN_ID": "3770"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3771",
+            "VLAN_ID": "3771"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3772",
+            "VLAN_ID": "3772"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3773",
+            "VLAN_ID": "3773"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3774",
+            "VLAN_ID": "3774"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3775",
+            "VLAN_ID": "3775"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3776",
+            "VLAN_ID": "3776"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3777",
+            "VLAN_ID": "3777"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3778",
+            "VLAN_ID": "3778"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3779",
+            "VLAN_ID": "3779"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3780",
+            "VLAN_ID": "3780"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3781",
+            "VLAN_ID": "3781"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3782",
+            "VLAN_ID": "3782"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3783",
+            "VLAN_ID": "3783"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3784",
+            "VLAN_ID": "3784"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3785",
+            "VLAN_ID": "3785"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3786",
+            "VLAN_ID": "3786"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3787",
+            "VLAN_ID": "3787"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3788",
+            "VLAN_ID": "3788"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3789",
+            "VLAN_ID": "3789"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3790",
+            "VLAN_ID": "3790"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3791",
+            "VLAN_ID": "3791"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3792",
+            "VLAN_ID": "3792"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3793",
+            "VLAN_ID": "3793"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3798",
+            "VLAN_ID": "3798"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3799",
+            "VLAN_ID": "3799"
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-ACC-PRD-01": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan149",
+            "VLAN_ID": "149"
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-ACC-PRD-02": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan149",
+            "VLAN_ID": "149"
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-ACC-PRD-03": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan149",
+            "VLAN_ID": "149"
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-ACC-PRD-04": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan149",
+            "VLAN_ID": "149"
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-ACC-PRD-05": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan149",
+            "VLAN_ID": "149"
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-ACC-PRD-06": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan149",
+            "VLAN_ID": "149"
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-COR-PRD-01": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan21",
+            "VLAN_ID": "21"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan22",
+            "VLAN_ID": "22"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan29",
+            "VLAN_ID": "29"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan30",
+            "VLAN_ID": "30"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan41",
+            "VLAN_ID": "41"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan51",
+            "VLAN_ID": "51"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan133",
+            "VLAN_ID": "133"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan146",
+            "VLAN_ID": "146"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan148",
+            "VLAN_ID": "148"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan204",
+            "VLAN_ID": "204"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan400",
+            "VLAN_ID": "400"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan410",
+            "VLAN_ID": "410"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan504",
+            "VLAN_ID": "504"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan1201",
+            "VLAN_ID": "1201"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan1202",
+            "VLAN_ID": "1202"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan1203",
+            "VLAN_ID": "1203"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan1204",
+            "VLAN_ID": "1204"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan1299",
+            "VLAN_ID": "1299"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan1614",
+            "VLAN_ID": "1614"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3200",
+            "VLAN_ID": "3200"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3850",
+            "VLAN_ID": "3850"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3854",
+            "VLAN_ID": "3854"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3856",
+            "VLAN_ID": "3856"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3858",
+            "VLAN_ID": "3858"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3859",
+            "VLAN_ID": "3859"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3878",
+            "VLAN_ID": "3878"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3893",
+            "VLAN_ID": "3893"
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-COR-PRD-02": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan21",
+            "VLAN_ID": "21"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan22",
+            "VLAN_ID": "22"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan29",
+            "VLAN_ID": "29"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan30",
+            "VLAN_ID": "30"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan41",
+            "VLAN_ID": "41"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan51",
+            "VLAN_ID": "51"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan133",
+            "VLAN_ID": "133"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan146",
+            "VLAN_ID": "146"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan148",
+            "VLAN_ID": "148"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan204",
+            "VLAN_ID": "204"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan400",
+            "VLAN_ID": "400"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan410",
+            "VLAN_ID": "410"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan504",
+            "VLAN_ID": "504"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan1201",
+            "VLAN_ID": "1201"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan1202",
+            "VLAN_ID": "1202"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan1203",
+            "VLAN_ID": "1203"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan1204",
+            "VLAN_ID": "1204"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan1299",
+            "VLAN_ID": "1299"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan1614",
+            "VLAN_ID": "1614"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3200",
+            "VLAN_ID": "3200"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3851",
+            "VLAN_ID": "3851"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3855",
+            "VLAN_ID": "3855"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3856",
+            "VLAN_ID": "3856"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3857",
+            "VLAN_ID": "3857"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3858",
+            "VLAN_ID": "3858"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3878",
+            "VLAN_ID": "3878"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3893",
+            "VLAN_ID": "3893"
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-TOR-MGT-01": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan149",
+            "VLAN_ID": "149"
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-TOR-MGT-02": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan149",
+            "VLAN_ID": "149"
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-TOR-MGT-03": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan149",
+            "VLAN_ID": "149"
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-TOR-MGT-04": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan149",
+            "VLAN_ID": "149"
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-TOR-MGT-05": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan149",
+            "VLAN_ID": "149"
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-TOR-PRD-01": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan149",
+            "VLAN_ID": "149"
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-TOR-PRD-02": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan149",
+            "VLAN_ID": "149"
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-TOR-PRD-03": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan149",
+            "VLAN_ID": "149"
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-TOR-PRD-04": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan149",
+            "VLAN_ID": "149"
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-TOR-PRD-05": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan149",
+            "VLAN_ID": "149"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan2502",
+            "VLAN_ID": "2502"
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-TOR-PRD-06": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan149",
+            "VLAN_ID": "149"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan2502",
+            "VLAN_ID": "2502"
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-TOR-PRD-07": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan149",
+            "VLAN_ID": "149"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan2502",
+            "VLAN_ID": "2502"
+        }
+    ],
+    "TUVA-EOC-N93-01": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan11",
+            "VLAN_ID": "11"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan13",
+            "VLAN_ID": "13"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan14",
+            "VLAN_ID": "14"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan20",
+            "VLAN_ID": "20"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan30",
+            "VLAN_ID": "30"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan41",
+            "VLAN_ID": "41"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan70",
+            "VLAN_ID": "70"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan120",
+            "VLAN_ID": "120"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan199",
+            "VLAN_ID": "199"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan201",
+            "VLAN_ID": "201"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan252",
+            "VLAN_ID": "252"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan253",
+            "VLAN_ID": "253"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan572",
+            "VLAN_ID": "572"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan699",
+            "VLAN_ID": "699"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan800",
+            "VLAN_ID": "800"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan801",
+            "VLAN_ID": "801"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan810",
+            "VLAN_ID": "810"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan2500",
+            "VLAN_ID": "2500"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3895",
+            "VLAN_ID": "3895"
+        }
+    ],
+    "TUVA-EOC-N93-02": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan11",
+            "VLAN_ID": "11"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan13",
+            "VLAN_ID": "13"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan14",
+            "VLAN_ID": "14"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan20",
+            "VLAN_ID": "20"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan30",
+            "VLAN_ID": "30"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan41",
+            "VLAN_ID": "41"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan70",
+            "VLAN_ID": "70"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan120",
+            "VLAN_ID": "120"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan199",
+            "VLAN_ID": "199"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan201",
+            "VLAN_ID": "201"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan252",
+            "VLAN_ID": "252"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan253",
+            "VLAN_ID": "253"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan572",
+            "VLAN_ID": "572"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan800",
+            "VLAN_ID": "800"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan801",
+            "VLAN_ID": "801"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan810",
+            "VLAN_ID": "810"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan2500",
+            "VLAN_ID": "2500"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3895",
+            "VLAN_ID": "3895"
+        }
+    ],
+    "TUVA-RAW-N93-01": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan41",
+            "VLAN_ID": "41"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan70",
+            "VLAN_ID": "70"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan114",
+            "VLAN_ID": "114"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan116",
+            "VLAN_ID": "116"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan220",
+            "VLAN_ID": "220"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan572",
+            "VLAN_ID": "572"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan699",
+            "VLAN_ID": "699"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan1252",
+            "VLAN_ID": "1252"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan1253",
+            "VLAN_ID": "1253"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan2500",
+            "VLAN_ID": "2500"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3895",
+            "VLAN_ID": "3895"
+        }
+    ],
+    "TUVA-RAW-N93-02": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan41",
+            "VLAN_ID": "41"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan70",
+            "VLAN_ID": "70"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan114",
+            "VLAN_ID": "114"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan116",
+            "VLAN_ID": "116"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan220",
+            "VLAN_ID": "220"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan572",
+            "VLAN_ID": "572"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan1252",
+            "VLAN_ID": "1252"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan1253",
+            "VLAN_ID": "1253"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan2500",
+            "VLAN_ID": "2500"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan3895",
+            "VLAN_ID": "3895"
+        }
+    ],
+    "TUVIC-T5M-L27-N93-S1": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan201",
+            "VLAN_ID": "201"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan204",
+            "VLAN_ID": "204"
+        }
+    ],
+    "TUVIC-T5M-L27-N93-S2": [
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan201",
+            "VLAN_ID": "201"
+        },
+        {
+            "VRF_NAME": "corporate",
+            "INTERFACE": "Vlan204",
+            "VLAN_ID": "204"
+        }
+    ]
+}

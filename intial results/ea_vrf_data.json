@@ -1,0 +1,110 @@
+{
+    "TU-NSW-DC2-L0-SW-COR-PRD-01": [
+        {
+            "VRF_NAME": "EA-BMS",
+            "INTERFACE": "Vlan211",
+            "VLAN_ID": "211"
+        },
+        {
+            "VRF_NAME": "EA-BMS",
+            "INTERFACE": "Vlan212",
+            "VLAN_ID": "212"
+        },
+        {
+            "VRF_NAME": "EA-BMS",
+            "INTERFACE": "Vlan213",
+            "VLAN_ID": "213"
+        },
+        {
+            "VRF_NAME": "EA-BMS",
+            "INTERFACE": "Vlan296",
+            "VLAN_ID": "296"
+        },
+        {
+            "VRF_NAME": "EA-BMS",
+            "INTERFACE": "Vlan298",
+            "VLAN_ID": "298"
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-COR-PRD-02": [
+        {
+            "VRF_NAME": "EA-BMS",
+            "INTERFACE": "Vlan211",
+            "VLAN_ID": "211"
+        },
+        {
+            "VRF_NAME": "EA-BMS",
+            "INTERFACE": "Vlan212",
+            "VLAN_ID": "212"
+        },
+        {
+            "VRF_NAME": "EA-BMS",
+            "INTERFACE": "Vlan213",
+            "VLAN_ID": "213"
+        },
+        {
+            "VRF_NAME": "EA-BMS",
+            "INTERFACE": "Vlan297",
+            "VLAN_ID": "297"
+        },
+        {
+            "VRF_NAME": "EA-BMS",
+            "INTERFACE": "Vlan299",
+            "VLAN_ID": "299"
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-COR-PRD-01": [
+        {
+            "VRF_NAME": "EA-BMS",
+            "INTERFACE": "Vlan211",
+            "VLAN_ID": "211"
+        },
+        {
+            "VRF_NAME": "EA-BMS",
+            "INTERFACE": "Vlan212",
+            "VLAN_ID": "212"
+        },
+        {
+            "VRF_NAME": "EA-BMS",
+            "INTERFACE": "Vlan213",
+            "VLAN_ID": "213"
+        },
+        {
+            "VRF_NAME": "EA-BMS",
+            "INTERFACE": "Vlan296",
+            "VLAN_ID": "296"
+        },
+        {
+            "VRF_NAME": "EA-BMS",
+            "INTERFACE": "Vlan298",
+            "VLAN_ID": "298"
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-COR-PRD-02": [
+        {
+            "VRF_NAME": "EA-BMS",
+            "INTERFACE": "Vlan211",
+            "VLAN_ID": "211"
+        },
+        {
+            "VRF_NAME": "EA-BMS",
+            "INTERFACE": "Vlan212",
+            "VLAN_ID": "212"
+        },
+        {
+            "VRF_NAME": "EA-BMS",
+            "INTERFACE": "Vlan213",
+            "VLAN_ID": "213"
+        },
+        {
+            "VRF_NAME": "EA-BMS",
+            "INTERFACE": "Vlan297",
+            "VLAN_ID": "297"
+        },
+        {
+            "VRF_NAME": "EA-BMS",
+            "INTERFACE": "Vlan299",
+            "VLAN_ID": "299"
+        }
+    ]
+}

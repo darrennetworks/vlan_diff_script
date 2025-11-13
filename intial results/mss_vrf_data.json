@@ -1,0 +1,382 @@
+{
+    "CL7QLD-TCC-CORE01": [
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan35",
+            "VLAN_ID": "35"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan36",
+            "VLAN_ID": "36"
+        }
+    ],
+    "CL7QLD-TCC-CORE02": [
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan35",
+            "VLAN_ID": "35"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan36",
+            "VLAN_ID": "36"
+        }
+    ],
+    "EDNSW-MCCB-CORE01-CORE": [
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan552",
+            "VLAN_ID": "552"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan553",
+            "VLAN_ID": "553"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan554",
+            "VLAN_ID": "554"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan557",
+            "VLAN_ID": "557"
+        }
+    ],
+    "EDNSW-MCCB-CORE02-CORE": [
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan552",
+            "VLAN_ID": "552"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan553",
+            "VLAN_ID": "553"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan554",
+            "VLAN_ID": "554"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan557",
+            "VLAN_ID": "557"
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-COR-PRD-01": [
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan694",
+            "VLAN_ID": "694"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan3681",
+            "VLAN_ID": "3681"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan3682",
+            "VLAN_ID": "3682"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan3880",
+            "VLAN_ID": "3880"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan3881",
+            "VLAN_ID": "3881"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan3882",
+            "VLAN_ID": "3882"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan3885",
+            "VLAN_ID": "3885"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan3888",
+            "VLAN_ID": "3888"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan3889",
+            "VLAN_ID": "3889"
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-COR-PRD-02": [
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan695",
+            "VLAN_ID": "695"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan3681",
+            "VLAN_ID": "3681"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan3682",
+            "VLAN_ID": "3682"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan3880",
+            "VLAN_ID": "3880"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan3881",
+            "VLAN_ID": "3881"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan3882",
+            "VLAN_ID": "3882"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan3886",
+            "VLAN_ID": "3886"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan3887",
+            "VLAN_ID": "3887"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan3888",
+            "VLAN_ID": "3888"
+        }
+    ],
+    "TU-QLD-ALOC-TQIOP-SW-01": [
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan181",
+            "VLAN_ID": "181"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan183",
+            "VLAN_ID": "183"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan354",
+            "VLAN_ID": "354"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan357",
+            "VLAN_ID": "357"
+        }
+    ],
+    "TU-QLD-ALOC-TQIOP-SW-02": [
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan181",
+            "VLAN_ID": "181"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan183",
+            "VLAN_ID": "183"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan352",
+            "VLAN_ID": "352"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan357",
+            "VLAN_ID": "357"
+        }
+    ],
+    "TU-QLD-CL7-LG-SW-CCR-01": [
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan35",
+            "VLAN_ID": "35"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan36",
+            "VLAN_ID": "36"
+        }
+    ],
+    "TU-QLD-CL7-TQIOP-SW-01": [
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan181",
+            "VLAN_ID": "181"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan183",
+            "VLAN_ID": "183"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan354",
+            "VLAN_ID": "354"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan358",
+            "VLAN_ID": "358"
+        }
+    ],
+    "TU-QLD-CL7-TQIOP-SW-02": [
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan181",
+            "VLAN_ID": "181"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan183",
+            "VLAN_ID": "183"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan352",
+            "VLAN_ID": "352"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan358",
+            "VLAN_ID": "358"
+        }
+    ],
+    "TU-QLD-QIAN-TCC-SW-COR-01": [
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan182",
+            "VLAN_ID": "182"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan183",
+            "VLAN_ID": "183"
+        }
+    ],
+    "TU-QLD-QIAN-TCC-SW-COR-02": [
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan182",
+            "VLAN_ID": "182"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan183",
+            "VLAN_ID": "183"
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-COR-PRD-01": [
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan694",
+            "VLAN_ID": "694"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan3681",
+            "VLAN_ID": "3681"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan3682",
+            "VLAN_ID": "3682"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan3880",
+            "VLAN_ID": "3880"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan3881",
+            "VLAN_ID": "3881"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan3882",
+            "VLAN_ID": "3882"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan3885",
+            "VLAN_ID": "3885"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan3888",
+            "VLAN_ID": "3888"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan3889",
+            "VLAN_ID": "3889"
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-COR-PRD-02": [
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan695",
+            "VLAN_ID": "695"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan3681",
+            "VLAN_ID": "3681"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan3682",
+            "VLAN_ID": "3682"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan3880",
+            "VLAN_ID": "3880"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan3881",
+            "VLAN_ID": "3881"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan3882",
+            "VLAN_ID": "3882"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan3886",
+            "VLAN_ID": "3886"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan3887",
+            "VLAN_ID": "3887"
+        },
+        {
+            "VRF_NAME": "MSS",
+            "INTERFACE": "Vlan3888",
+            "VLAN_ID": "3888"
+        }
+    ]
+}

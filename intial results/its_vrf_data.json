@@ -1,0 +1,1874 @@
+{
+    "CCT-NSW-MNCS-MCCB-AGG001": [
+        {
+            "VRF_NAME": "CCT_ITS_EXTRANET",
+            "INTERFACE": "Vlan153",
+            "VLAN_ID": "153"
+        },
+        {
+            "VRF_NAME": "CCT_ITS_EXTRANET",
+            "INTERFACE": "Vlan154",
+            "VLAN_ID": "154"
+        }
+    ],
+    "CCT-NSW-MNCS-MCCB-AGG002": [
+        {
+            "VRF_NAME": "CCT_ITS_EXTRANET",
+            "INTERFACE": "Vlan153",
+            "VLAN_ID": "153"
+        },
+        {
+            "VRF_NAME": "CCT_ITS_EXTRANET",
+            "INTERFACE": "Vlan154",
+            "VLAN_ID": "154"
+        }
+    ],
+    "CL7QLD-TCC-CORE01": [
+        {
+            "VRF_NAME": "ITS_Z2_Q-FREE_RSE_CL7",
+            "INTERFACE": "Vlan3020",
+            "VLAN_ID": "3020"
+        },
+        {
+            "VRF_NAME": "ITS_Z2_Q-FREE_RSE_CL7",
+            "INTERFACE": "Vlan3021",
+            "VLAN_ID": "3021"
+        },
+        {
+            "VRF_NAME": "ITS_Z2_Q-FREE_RSE_CL7",
+            "INTERFACE": "Vlan3022",
+            "VLAN_ID": "3022"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_CL7",
+            "INTERFACE": "Vlan1808",
+            "VLAN_ID": "1808"
+        }
+    ],
+    "CL7QLD-TCC-CORE02": [
+        {
+            "VRF_NAME": "ITS_Z2_Q-FREE_RSE_CL7",
+            "INTERFACE": "Vlan3020",
+            "VLAN_ID": "3020"
+        },
+        {
+            "VRF_NAME": "ITS_Z2_Q-FREE_RSE_CL7",
+            "INTERFACE": "Vlan3021",
+            "VLAN_ID": "3021"
+        },
+        {
+            "VRF_NAME": "ITS_Z2_Q-FREE_RSE_CL7",
+            "INTERFACE": "Vlan3022",
+            "VLAN_ID": "3022"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_CL7",
+            "INTERFACE": "Vlan1808",
+            "VLAN_ID": "1808"
+        }
+    ],
+    "CL7QLD-TCC-N93-01": [
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_CL7",
+            "INTERFACE": "Vlan1808",
+            "VLAN_ID": "1808"
+        }
+    ],
+    "CL7QLD-TCC-N93-02": [
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_CL7",
+            "INTERFACE": "Vlan1808",
+            "VLAN_ID": "1808"
+        }
+    ],
+    "CL7QLD-TCC-N93-03": [
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_CL7",
+            "INTERFACE": "Vlan1808",
+            "VLAN_ID": "1808"
+        }
+    ],
+    "EDNSW-MCCB-CORE01-CORE": [
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan536",
+            "VLAN_ID": "536"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan537",
+            "VLAN_ID": "537"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan793",
+            "VLAN_ID": "793"
+        }
+    ],
+    "EDNSW-MCCB-CORE02-CORE": [
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan536",
+            "VLAN_ID": "536"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan537",
+            "VLAN_ID": "537"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan793",
+            "VLAN_ID": "793"
+        }
+    ],
+    "TU-M5SW-DRS-SW-COR-01": [
+        {
+            "VRF_NAME": "ITS_Z2",
+            "INTERFACE": "Vlan3005",
+            "VLAN_ID": "3005"
+        },
+        {
+            "VRF_NAME": "ITS_Z2",
+            "INTERFACE": "Vlan3006",
+            "VLAN_ID": "3006"
+        },
+        {
+            "VRF_NAME": "ITS_Z2",
+            "INTERFACE": "Vlan3009",
+            "VLAN_ID": "3009"
+        },
+        {
+            "VRF_NAME": "ITS_Z2",
+            "INTERFACE": "Vlan3010",
+            "VLAN_ID": "3010"
+        },
+        {
+            "VRF_NAME": "ITS_Z2",
+            "INTERFACE": "Vlan3096",
+            "VLAN_ID": "3096"
+        },
+        {
+            "VRF_NAME": "ITS_Z2",
+            "INTERFACE": "Vlan3712",
+            "VLAN_ID": "3712"
+        },
+        {
+            "VRF_NAME": "ITS_Z3",
+            "INTERFACE": "Vlan3001",
+            "VLAN_ID": "3001"
+        },
+        {
+            "VRF_NAME": "ITS_Z3",
+            "INTERFACE": "Vlan3002",
+            "VLAN_ID": "3002"
+        },
+        {
+            "VRF_NAME": "ITS_Z3",
+            "INTERFACE": "Vlan3097",
+            "VLAN_ID": "3097"
+        },
+        {
+            "VRF_NAME": "ITS_Z3",
+            "INTERFACE": "Vlan3871",
+            "VLAN_ID": "3871"
+        }
+    ],
+    "TU-M5SW-DRS-SW-COR-02": [
+        {
+            "VRF_NAME": "ITS_Z2",
+            "INTERFACE": "Vlan3006",
+            "VLAN_ID": "3006"
+        },
+        {
+            "VRF_NAME": "ITS_Z2",
+            "INTERFACE": "Vlan3007",
+            "VLAN_ID": "3007"
+        },
+        {
+            "VRF_NAME": "ITS_Z2",
+            "INTERFACE": "Vlan3010",
+            "VLAN_ID": "3010"
+        },
+        {
+            "VRF_NAME": "ITS_Z2",
+            "INTERFACE": "Vlan3011",
+            "VLAN_ID": "3011"
+        },
+        {
+            "VRF_NAME": "ITS_Z2",
+            "INTERFACE": "Vlan3096",
+            "VLAN_ID": "3096"
+        },
+        {
+            "VRF_NAME": "ITS_Z3",
+            "INTERFACE": "Vlan3002",
+            "VLAN_ID": "3002"
+        },
+        {
+            "VRF_NAME": "ITS_Z3",
+            "INTERFACE": "Vlan3003",
+            "VLAN_ID": "3003"
+        },
+        {
+            "VRF_NAME": "ITS_Z3",
+            "INTERFACE": "Vlan3097",
+            "VLAN_ID": "3097"
+        },
+        {
+            "VRF_NAME": "ITS_Z3",
+            "INTERFACE": "Vlan3872",
+            "VLAN_ID": "3872"
+        }
+    ],
+    "TU-M5SW-MCC-SW-COR-01": [
+        {
+            "VRF_NAME": "ITS_Z2",
+            "INTERFACE": "Vlan3004",
+            "VLAN_ID": "3004"
+        },
+        {
+            "VRF_NAME": "ITS_Z2",
+            "INTERFACE": "Vlan3005",
+            "VLAN_ID": "3005"
+        },
+        {
+            "VRF_NAME": "ITS_Z2",
+            "INTERFACE": "Vlan3008",
+            "VLAN_ID": "3008"
+        },
+        {
+            "VRF_NAME": "ITS_Z2",
+            "INTERFACE": "Vlan3009",
+            "VLAN_ID": "3009"
+        },
+        {
+            "VRF_NAME": "ITS_Z2",
+            "INTERFACE": "Vlan3098",
+            "VLAN_ID": "3098"
+        },
+        {
+            "VRF_NAME": "ITS_Z2",
+            "INTERFACE": "Vlan3712",
+            "VLAN_ID": "3712"
+        },
+        {
+            "VRF_NAME": "ITS_Z2_TOLL",
+            "INTERFACE": "Vlan2001",
+            "VLAN_ID": "2001"
+        },
+        {
+            "VRF_NAME": "ITS_Z2_TOLL",
+            "INTERFACE": "Vlan2099",
+            "VLAN_ID": "2099"
+        },
+        {
+            "VRF_NAME": "ITS_Z2_TOLL",
+            "INTERFACE": "Vlan2110",
+            "VLAN_ID": "2110"
+        },
+        {
+            "VRF_NAME": "ITS_Z3",
+            "INTERFACE": "Vlan3000",
+            "VLAN_ID": "3000"
+        },
+        {
+            "VRF_NAME": "ITS_Z3",
+            "INTERFACE": "Vlan3001",
+            "VLAN_ID": "3001"
+        },
+        {
+            "VRF_NAME": "ITS_Z3",
+            "INTERFACE": "Vlan3099",
+            "VLAN_ID": "3099"
+        },
+        {
+            "VRF_NAME": "ITS_Z3",
+            "INTERFACE": "Vlan3869",
+            "VLAN_ID": "3869"
+        }
+    ],
+    "TU-M5SW-MCC-SW-COR-02": [
+        {
+            "VRF_NAME": "ITS_Z2",
+            "INTERFACE": "Vlan3004",
+            "VLAN_ID": "3004"
+        },
+        {
+            "VRF_NAME": "ITS_Z2",
+            "INTERFACE": "Vlan3007",
+            "VLAN_ID": "3007"
+        },
+        {
+            "VRF_NAME": "ITS_Z2",
+            "INTERFACE": "Vlan3008",
+            "VLAN_ID": "3008"
+        },
+        {
+            "VRF_NAME": "ITS_Z2",
+            "INTERFACE": "Vlan3011",
+            "VLAN_ID": "3011"
+        },
+        {
+            "VRF_NAME": "ITS_Z2",
+            "INTERFACE": "Vlan3098",
+            "VLAN_ID": "3098"
+        },
+        {
+            "VRF_NAME": "ITS_Z2_TOLL",
+            "INTERFACE": "Vlan2001",
+            "VLAN_ID": "2001"
+        },
+        {
+            "VRF_NAME": "ITS_Z2_TOLL",
+            "INTERFACE": "Vlan2099",
+            "VLAN_ID": "2099"
+        },
+        {
+            "VRF_NAME": "ITS_Z2_TOLL",
+            "INTERFACE": "Vlan2110",
+            "VLAN_ID": "2110"
+        },
+        {
+            "VRF_NAME": "ITS_Z2_TOLL",
+            "INTERFACE": "Vlan2111",
+            "VLAN_ID": "2111"
+        },
+        {
+            "VRF_NAME": "ITS_Z3",
+            "INTERFACE": "Vlan3000",
+            "VLAN_ID": "3000"
+        },
+        {
+            "VRF_NAME": "ITS_Z3",
+            "INTERFACE": "Vlan3003",
+            "VLAN_ID": "3003"
+        },
+        {
+            "VRF_NAME": "ITS_Z3",
+            "INTERFACE": "Vlan3099",
+            "VLAN_ID": "3099"
+        },
+        {
+            "VRF_NAME": "ITS_Z3",
+            "INTERFACE": "Vlan3870",
+            "VLAN_ID": "3870"
+        }
+    ],
+    "TU-ME1-SW-CRP-01": [
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan65",
+            "VLAN_ID": "65"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan66",
+            "VLAN_ID": "66"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan3744",
+            "VLAN_ID": "3744"
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-COR-PRD-01": [
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan65",
+            "VLAN_ID": "65"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan693",
+            "VLAN_ID": "693"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan2806",
+            "VLAN_ID": "2806"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan2807",
+            "VLAN_ID": "2807"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan3860",
+            "VLAN_ID": "3860"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan3861",
+            "VLAN_ID": "3861"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan3862",
+            "VLAN_ID": "3862"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan3868",
+            "VLAN_ID": "3868"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan3869",
+            "VLAN_ID": "3869"
+        }
+    ],
+    "TU-NSW-DC2-L0-SW-COR-PRD-02": [
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan66",
+            "VLAN_ID": "66"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan692",
+            "VLAN_ID": "692"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan2806",
+            "VLAN_ID": "2806"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan2807",
+            "VLAN_ID": "2807"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan3860",
+            "VLAN_ID": "3860"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan3861",
+            "VLAN_ID": "3861"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan3863",
+            "VLAN_ID": "3863"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan3864",
+            "VLAN_ID": "3864"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan3868",
+            "VLAN_ID": "3868"
+        }
+    ],
+    "TU-NSW-LCT-SIRDC-SW-COR-01": [
+        {
+            "VRF_NAME": "ITS-Z2-NP-DC",
+            "INTERFACE": "Vlan500",
+            "VLAN_ID": "500"
+        },
+        {
+            "VRF_NAME": "ITS-Z2-P-DC",
+            "INTERFACE": "Vlan400",
+            "VLAN_ID": "400"
+        },
+        {
+            "VRF_NAME": "ITS-Z2-SC-DC",
+            "INTERFACE": "Vlan200",
+            "VLAN_ID": "200"
+        },
+        {
+            "VRF_NAME": "ITS-Z2-SC-DC",
+            "INTERFACE": "Vlan201",
+            "VLAN_ID": "201"
+        },
+        {
+            "VRF_NAME": "ITS-Z2-SC-DC",
+            "INTERFACE": "Vlan202",
+            "VLAN_ID": "202"
+        },
+        {
+            "VRF_NAME": "ITS-Z2-SC-DC",
+            "INTERFACE": "Vlan203",
+            "VLAN_ID": "203"
+        },
+        {
+            "VRF_NAME": "ITS-Z2-SC-DC",
+            "INTERFACE": "Vlan204",
+            "VLAN_ID": "204"
+        },
+        {
+            "VRF_NAME": "ITS-Z2-SC-DC",
+            "INTERFACE": "Vlan206",
+            "VLAN_ID": "206"
+        },
+        {
+            "VRF_NAME": "ITS-Z2-SC-DC",
+            "INTERFACE": "Vlan208",
+            "VLAN_ID": "208"
+        },
+        {
+            "VRF_NAME": "ITS-Z2-SC-DC",
+            "INTERFACE": "Vlan210",
+            "VLAN_ID": "210"
+        },
+        {
+            "VRF_NAME": "ITS-Z2-SC-DC",
+            "INTERFACE": "Vlan212",
+            "VLAN_ID": "212"
+        },
+        {
+            "VRF_NAME": "ITS-Z35-DC",
+            "INTERFACE": "Vlan650",
+            "VLAN_ID": "650"
+        },
+        {
+            "VRF_NAME": "ITS-Z35-DC",
+            "INTERFACE": "Vlan652",
+            "VLAN_ID": "652"
+        },
+        {
+            "VRF_NAME": "ITS-Z35-DC",
+            "INTERFACE": "Vlan653",
+            "VLAN_ID": "653"
+        },
+        {
+            "VRF_NAME": "ITS-Z35-SRVMGMT-DC",
+            "INTERFACE": "Vlan602",
+            "VLAN_ID": "602"
+        },
+        {
+            "VRF_NAME": "ITS-Z35-WSUS-DC",
+            "INTERFACE": "Vlan600",
+            "VLAN_ID": "600"
+        }
+    ],
+    "TU-NSW-LCT-SIRDC-SW-COR-02": [
+        {
+            "VRF_NAME": "ITS-Z2-NP-DC",
+            "INTERFACE": "Vlan500",
+            "VLAN_ID": "500"
+        },
+        {
+            "VRF_NAME": "ITS-Z2-P-DC",
+            "INTERFACE": "Vlan400",
+            "VLAN_ID": "400"
+        },
+        {
+            "VRF_NAME": "ITS-Z2-SC-DC",
+            "INTERFACE": "Vlan204",
+            "VLAN_ID": "204"
+        },
+        {
+            "VRF_NAME": "ITS-Z2-SC-DC",
+            "INTERFACE": "Vlan206",
+            "VLAN_ID": "206"
+        },
+        {
+            "VRF_NAME": "ITS-Z2-SC-DC",
+            "INTERFACE": "Vlan208",
+            "VLAN_ID": "208"
+        },
+        {
+            "VRF_NAME": "ITS-Z2-SC-DC",
+            "INTERFACE": "Vlan210",
+            "VLAN_ID": "210"
+        },
+        {
+            "VRF_NAME": "ITS-Z2-SC-DC",
+            "INTERFACE": "Vlan212",
+            "VLAN_ID": "212"
+        },
+        {
+            "VRF_NAME": "ITS-Z35-DC",
+            "INTERFACE": "Vlan650",
+            "VLAN_ID": "650"
+        },
+        {
+            "VRF_NAME": "ITS-Z35-DC",
+            "INTERFACE": "Vlan653",
+            "VLAN_ID": "653"
+        },
+        {
+            "VRF_NAME": "ITS-Z35-WSUS-DC",
+            "INTERFACE": "Vlan600",
+            "VLAN_ID": "600"
+        }
+    ],
+    "TU-NSW-M2-EPCR-COR-PRD-01": [
+        {
+            "VRF_NAME": "ITS_MGMT",
+            "INTERFACE": "Vlan305",
+            "VLAN_ID": "305"
+        },
+        {
+            "VRF_NAME": "ITS_MGMT",
+            "INTERFACE": "Vlan3872",
+            "VLAN_ID": "3872"
+        },
+        {
+            "VRF_NAME": "ITS_MGMT",
+            "INTERFACE": "Vlan3875",
+            "VLAN_ID": "3875"
+        }
+    ],
+    "TU-NSW-M2-MCCA-COR-PRD-01": [
+        {
+            "VRF_NAME": "ITS_MGMT",
+            "INTERFACE": "Vlan305",
+            "VLAN_ID": "305"
+        },
+        {
+            "VRF_NAME": "ITS_MGMT",
+            "INTERFACE": "Vlan3872",
+            "VLAN_ID": "3872"
+        },
+        {
+            "VRF_NAME": "ITS_MGMT",
+            "INTERFACE": "Vlan3873",
+            "VLAN_ID": "3873"
+        }
+    ],
+    "TU-NSW-M2-TALDC-SW-COR-01": [
+        {
+            "VRF_NAME": "ITS-Z2-MC-DC",
+            "INTERFACE": "Vlan207",
+            "VLAN_ID": "207"
+        },
+        {
+            "VRF_NAME": "ITS-Z2-MC-DC",
+            "INTERFACE": "Vlan209",
+            "VLAN_ID": "209"
+        },
+        {
+            "VRF_NAME": "ITS-Z2-NP-DC",
+            "INTERFACE": "Vlan501",
+            "VLAN_ID": "501"
+        },
+        {
+            "VRF_NAME": "ITS-Z2-P-DC",
+            "INTERFACE": "Vlan401",
+            "VLAN_ID": "401"
+        },
+        {
+            "VRF_NAME": "ITS-Z2-SC-DC",
+            "INTERFACE": "Vlan200",
+            "VLAN_ID": "200"
+        },
+        {
+            "VRF_NAME": "ITS-Z2-SC-DC",
+            "INTERFACE": "Vlan201",
+            "VLAN_ID": "201"
+        },
+        {
+            "VRF_NAME": "ITS-Z2-SC-DC",
+            "INTERFACE": "Vlan202",
+            "VLAN_ID": "202"
+        },
+        {
+            "VRF_NAME": "ITS-Z2-SC-DC",
+            "INTERFACE": "Vlan203",
+            "VLAN_ID": "203"
+        },
+        {
+            "VRF_NAME": "ITS-Z2-SC-DC",
+            "INTERFACE": "Vlan205",
+            "VLAN_ID": "205"
+        },
+        {
+            "VRF_NAME": "ITS-Z2-SC-DC",
+            "INTERFACE": "Vlan211",
+            "VLAN_ID": "211"
+        },
+        {
+            "VRF_NAME": "ITS-Z2-SC-DC",
+            "INTERFACE": "Vlan213",
+            "VLAN_ID": "213"
+        },
+        {
+            "VRF_NAME": "ITS-Z2-SC-DC",
+            "INTERFACE": "Vlan215",
+            "VLAN_ID": "215"
+        },
+        {
+            "VRF_NAME": "ITS-Z35-DC",
+            "INTERFACE": "Vlan53",
+            "VLAN_ID": "53"
+        },
+        {
+            "VRF_NAME": "ITS-Z35-DC",
+            "INTERFACE": "Vlan651",
+            "VLAN_ID": "651"
+        },
+        {
+            "VRF_NAME": "ITS-Z35-DC",
+            "INTERFACE": "Vlan652",
+            "VLAN_ID": "652"
+        },
+        {
+            "VRF_NAME": "ITS-Z35-DC",
+            "INTERFACE": "Vlan653",
+            "VLAN_ID": "653"
+        },
+        {
+            "VRF_NAME": "ITS-Z35-SRVMGMT-DC",
+            "INTERFACE": "Vlan602",
+            "VLAN_ID": "602"
+        },
+        {
+            "VRF_NAME": "ITS-Z35-WSUS-DC",
+            "INTERFACE": "Vlan601",
+            "VLAN_ID": "601"
+        }
+    ],
+    "TU-NSW-M2-TALDC-SW-COR-02": [
+        {
+            "VRF_NAME": "ITS-Z2-MC-DC",
+            "INTERFACE": "Vlan207",
+            "VLAN_ID": "207"
+        },
+        {
+            "VRF_NAME": "ITS-Z2-MC-DC",
+            "INTERFACE": "Vlan209",
+            "VLAN_ID": "209"
+        },
+        {
+            "VRF_NAME": "ITS-Z2-NP-DC",
+            "INTERFACE": "Vlan501",
+            "VLAN_ID": "501"
+        },
+        {
+            "VRF_NAME": "ITS-Z2-P-DC",
+            "INTERFACE": "Vlan401",
+            "VLAN_ID": "401"
+        },
+        {
+            "VRF_NAME": "ITS-Z2-SC-DC",
+            "INTERFACE": "Vlan205",
+            "VLAN_ID": "205"
+        },
+        {
+            "VRF_NAME": "ITS-Z2-SC-DC",
+            "INTERFACE": "Vlan211",
+            "VLAN_ID": "211"
+        },
+        {
+            "VRF_NAME": "ITS-Z2-SC-DC",
+            "INTERFACE": "Vlan213",
+            "VLAN_ID": "213"
+        },
+        {
+            "VRF_NAME": "ITS-Z2-SC-DC",
+            "INTERFACE": "Vlan215",
+            "VLAN_ID": "215"
+        },
+        {
+            "VRF_NAME": "ITS-Z35-DC",
+            "INTERFACE": "Vlan53",
+            "VLAN_ID": "53"
+        },
+        {
+            "VRF_NAME": "ITS-Z35-DC",
+            "INTERFACE": "Vlan651",
+            "VLAN_ID": "651"
+        },
+        {
+            "VRF_NAME": "ITS-Z35-DC",
+            "INTERFACE": "Vlan653",
+            "VLAN_ID": "653"
+        },
+        {
+            "VRF_NAME": "ITS-Z35-WSUS-DC",
+            "INTERFACE": "Vlan601",
+            "VLAN_ID": "601"
+        }
+    ],
+    "TU-QLD-ALOC-TQIOP-SW-01": [
+        {
+            "VRF_NAME": "ITS_Z1_PC_LWY",
+            "INTERFACE": "Vlan134",
+            "VLAN_ID": "134"
+        },
+        {
+            "VRF_NAME": "ITS_Z1_PC_LWY",
+            "INTERFACE": "Vlan137",
+            "VLAN_ID": "137"
+        },
+        {
+            "VRF_NAME": "ITS_Z1_PC_LWY",
+            "INTERFACE": "Vlan1011",
+            "VLAN_ID": "1011"
+        },
+        {
+            "VRF_NAME": "ITS_Z1_PC_LWY",
+            "INTERFACE": "Vlan1071",
+            "VLAN_ID": "1071"
+        },
+        {
+            "VRF_NAME": "ITS_Z2_STREAMS",
+            "INTERFACE": "Vlan108",
+            "VLAN_ID": "108"
+        },
+        {
+            "VRF_NAME": "ITS_Z2_STREAMS",
+            "INTERFACE": "Vlan109",
+            "VLAN_ID": "109"
+        },
+        {
+            "VRF_NAME": "ITS_Z2_STREAMS",
+            "INTERFACE": "Vlan244",
+            "VLAN_ID": "244"
+        },
+        {
+            "VRF_NAME": "ITS_Z2_STREAMS",
+            "INTERFACE": "Vlan247",
+            "VLAN_ID": "247"
+        },
+        {
+            "VRF_NAME": "ITS_Z2_STREAMS",
+            "INTERFACE": "Vlan1109",
+            "VLAN_ID": "1109"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_QIAN",
+            "INTERFACE": "Vlan804",
+            "VLAN_ID": "804"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_QIAN",
+            "INTERFACE": "Vlan807",
+            "VLAN_ID": "807"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_QIAN",
+            "INTERFACE": "Vlan1803",
+            "VLAN_ID": "1803"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_TQIOP",
+            "INTERFACE": "Vlan814",
+            "VLAN_ID": "814"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_TQIOP",
+            "INTERFACE": "Vlan817",
+            "VLAN_ID": "817"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_TQIOP",
+            "INTERFACE": "Vlan829",
+            "VLAN_ID": "829"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_TQIOP",
+            "INTERFACE": "Vlan838",
+            "VLAN_ID": "838"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_TQIOP",
+            "INTERFACE": "Vlan839",
+            "VLAN_ID": "839"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_TQIOP",
+            "INTERFACE": "Vlan841",
+            "VLAN_ID": "841"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_TQIOP",
+            "INTERFACE": "Vlan921",
+            "VLAN_ID": "921"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_TQIOP",
+            "INTERFACE": "Vlan931",
+            "VLAN_ID": "931"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_TQIOP",
+            "INTERFACE": "Vlan941",
+            "VLAN_ID": "941"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_AD",
+            "INTERFACE": "Vlan890",
+            "VLAN_ID": "890"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_AD",
+            "INTERFACE": "Vlan1809",
+            "VLAN_ID": "1809"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_AD",
+            "INTERFACE": "Vlan1829",
+            "VLAN_ID": "1829"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan821",
+            "VLAN_ID": "821"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan823",
+            "VLAN_ID": "823"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan831",
+            "VLAN_ID": "831"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan833",
+            "VLAN_ID": "833"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan840",
+            "VLAN_ID": "840"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan904",
+            "VLAN_ID": "904"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan907",
+            "VLAN_ID": "907"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan922",
+            "VLAN_ID": "922"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan932",
+            "VLAN_ID": "932"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan942",
+            "VLAN_ID": "942"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_NTP",
+            "INTERFACE": "Vlan1802",
+            "VLAN_ID": "1802"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_NTP",
+            "INTERFACE": "Vlan1820",
+            "VLAN_ID": "1820"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_NTP",
+            "INTERFACE": "Vlan1822",
+            "VLAN_ID": "1822"
+        },
+        {
+            "VRF_NAME": "ITS_Z1_PC_CCTV_TCX",
+            "INTERFACE": "Vlan194",
+            "VLAN_ID": "194"
+        },
+        {
+            "VRF_NAME": "ITS_Z1_PC_CCTV_TCX",
+            "INTERFACE": "Vlan197",
+            "VLAN_ID": "197"
+        },
+        {
+            "VRF_NAME": "ITS_Z1_PC_CCTV_TCX",
+            "INTERFACE": "Vlan1192",
+            "VLAN_ID": "1192"
+        },
+        {
+            "VRF_NAME": "ITS_Z1_PC_CCTV_TCX",
+            "INTERFACE": "Vlan1193",
+            "VLAN_ID": "1193"
+        }
+    ],
+    "TU-QLD-ALOC-TQIOP-SW-02": [
+        {
+            "VRF_NAME": "ITS_Z1_PC_CCTV_TCX",
+            "INTERFACE": "Vlan193",
+            "VLAN_ID": "193"
+        },
+        {
+            "VRF_NAME": "ITS_Z1_PC_CCTV_TCX",
+            "INTERFACE": "Vlan197",
+            "VLAN_ID": "197"
+        },
+        {
+            "VRF_NAME": "ITS_Z1_PC_CCTV_TCX",
+            "INTERFACE": "Vlan1192",
+            "VLAN_ID": "1192"
+        },
+        {
+            "VRF_NAME": "ITS_Z1_PC_CCTV_TCX",
+            "INTERFACE": "Vlan1193",
+            "VLAN_ID": "1193"
+        },
+        {
+            "VRF_NAME": "ITS_Z1_PC_LWY",
+            "INTERFACE": "Vlan132",
+            "VLAN_ID": "132"
+        },
+        {
+            "VRF_NAME": "ITS_Z1_PC_LWY",
+            "INTERFACE": "Vlan137",
+            "VLAN_ID": "137"
+        },
+        {
+            "VRF_NAME": "ITS_Z1_PC_LWY",
+            "INTERFACE": "Vlan1011",
+            "VLAN_ID": "1011"
+        },
+        {
+            "VRF_NAME": "ITS_Z1_PC_LWY",
+            "INTERFACE": "Vlan1071",
+            "VLAN_ID": "1071"
+        },
+        {
+            "VRF_NAME": "ITS_Z2_STREAMS",
+            "INTERFACE": "Vlan108",
+            "VLAN_ID": "108"
+        },
+        {
+            "VRF_NAME": "ITS_Z2_STREAMS",
+            "INTERFACE": "Vlan109",
+            "VLAN_ID": "109"
+        },
+        {
+            "VRF_NAME": "ITS_Z2_STREAMS",
+            "INTERFACE": "Vlan242",
+            "VLAN_ID": "242"
+        },
+        {
+            "VRF_NAME": "ITS_Z2_STREAMS",
+            "INTERFACE": "Vlan247",
+            "VLAN_ID": "247"
+        },
+        {
+            "VRF_NAME": "ITS_Z2_STREAMS",
+            "INTERFACE": "Vlan1109",
+            "VLAN_ID": "1109"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_AD",
+            "INTERFACE": "Vlan890",
+            "VLAN_ID": "890"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_AD",
+            "INTERFACE": "Vlan1819",
+            "VLAN_ID": "1819"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_AD",
+            "INTERFACE": "Vlan1829",
+            "VLAN_ID": "1829"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_QIAN",
+            "INTERFACE": "Vlan802",
+            "VLAN_ID": "802"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_QIAN",
+            "INTERFACE": "Vlan807",
+            "VLAN_ID": "807"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_QIAN",
+            "INTERFACE": "Vlan1803",
+            "VLAN_ID": "1803"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_TQIOP",
+            "INTERFACE": "Vlan812",
+            "VLAN_ID": "812"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_TQIOP",
+            "INTERFACE": "Vlan817",
+            "VLAN_ID": "817"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_TQIOP",
+            "INTERFACE": "Vlan829",
+            "VLAN_ID": "829"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_TQIOP",
+            "INTERFACE": "Vlan838",
+            "VLAN_ID": "838"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_TQIOP",
+            "INTERFACE": "Vlan839",
+            "VLAN_ID": "839"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_TQIOP",
+            "INTERFACE": "Vlan841",
+            "VLAN_ID": "841"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_TQIOP",
+            "INTERFACE": "Vlan921",
+            "VLAN_ID": "921"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_TQIOP",
+            "INTERFACE": "Vlan931",
+            "VLAN_ID": "931"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_TQIOP",
+            "INTERFACE": "Vlan941",
+            "VLAN_ID": "941"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_NTP",
+            "INTERFACE": "Vlan1812",
+            "VLAN_ID": "1812"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_NTP",
+            "INTERFACE": "Vlan1820",
+            "VLAN_ID": "1820"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_NTP",
+            "INTERFACE": "Vlan1822",
+            "VLAN_ID": "1822"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan821",
+            "VLAN_ID": "821"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan823",
+            "VLAN_ID": "823"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan831",
+            "VLAN_ID": "831"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan833",
+            "VLAN_ID": "833"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan840",
+            "VLAN_ID": "840"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan902",
+            "VLAN_ID": "902"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan907",
+            "VLAN_ID": "907"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan922",
+            "VLAN_ID": "922"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan932",
+            "VLAN_ID": "932"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan942",
+            "VLAN_ID": "942"
+        }
+    ],
+    "TU-QLD-CL7-LG-SW-CCR-01": [
+        {
+            "VRF_NAME": "ITS_Z2_Q-FREE_RSE_CL7",
+            "INTERFACE": "Vlan3020",
+            "VLAN_ID": "3020"
+        },
+        {
+            "VRF_NAME": "ITS_Z2_Q-FREE_RSE_CL7",
+            "INTERFACE": "Vlan3021",
+            "VLAN_ID": "3021"
+        },
+        {
+            "VRF_NAME": "ITS_Z2_Q-FREE_RSE_CL7",
+            "INTERFACE": "Vlan3022",
+            "VLAN_ID": "3022"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_CL7",
+            "INTERFACE": "Vlan1808",
+            "VLAN_ID": "1808"
+        }
+    ],
+    "TU-QLD-CL7-TQIOP-SW-01": [
+        {
+            "VRF_NAME": "ITS_Z1_PC_LWY",
+            "INTERFACE": "Vlan134",
+            "VLAN_ID": "134"
+        },
+        {
+            "VRF_NAME": "ITS_Z1_PC_LWY",
+            "INTERFACE": "Vlan138",
+            "VLAN_ID": "138"
+        },
+        {
+            "VRF_NAME": "ITS_Z1_PC_LWY",
+            "INTERFACE": "Vlan1011",
+            "VLAN_ID": "1011"
+        },
+        {
+            "VRF_NAME": "ITS_Z1_PC_LWY",
+            "INTERFACE": "Vlan1071",
+            "VLAN_ID": "1071"
+        },
+        {
+            "VRF_NAME": "ITS_Z2_STREAMS",
+            "INTERFACE": "Vlan108",
+            "VLAN_ID": "108"
+        },
+        {
+            "VRF_NAME": "ITS_Z2_STREAMS",
+            "INTERFACE": "Vlan109",
+            "VLAN_ID": "109"
+        },
+        {
+            "VRF_NAME": "ITS_Z2_STREAMS",
+            "INTERFACE": "Vlan244",
+            "VLAN_ID": "244"
+        },
+        {
+            "VRF_NAME": "ITS_Z2_STREAMS",
+            "INTERFACE": "Vlan248",
+            "VLAN_ID": "248"
+        },
+        {
+            "VRF_NAME": "ITS_Z2_STREAMS",
+            "INTERFACE": "Vlan1109",
+            "VLAN_ID": "1109"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_QIAN",
+            "INTERFACE": "Vlan804",
+            "VLAN_ID": "804"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_QIAN",
+            "INTERFACE": "Vlan808",
+            "VLAN_ID": "808"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_QIAN",
+            "INTERFACE": "Vlan1803",
+            "VLAN_ID": "1803"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_TQIOP",
+            "INTERFACE": "Vlan814",
+            "VLAN_ID": "814"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_TQIOP",
+            "INTERFACE": "Vlan818",
+            "VLAN_ID": "818"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_TQIOP",
+            "INTERFACE": "Vlan829",
+            "VLAN_ID": "829"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_TQIOP",
+            "INTERFACE": "Vlan838",
+            "VLAN_ID": "838"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_TQIOP",
+            "INTERFACE": "Vlan839",
+            "VLAN_ID": "839"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_TQIOP",
+            "INTERFACE": "Vlan841",
+            "VLAN_ID": "841"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_TQIOP",
+            "INTERFACE": "Vlan921",
+            "VLAN_ID": "921"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_TQIOP",
+            "INTERFACE": "Vlan931",
+            "VLAN_ID": "931"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_TQIOP",
+            "INTERFACE": "Vlan941",
+            "VLAN_ID": "941"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_AD",
+            "INTERFACE": "Vlan890",
+            "VLAN_ID": "890"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_AD",
+            "INTERFACE": "Vlan1809",
+            "VLAN_ID": "1809"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_AD",
+            "INTERFACE": "Vlan1839",
+            "VLAN_ID": "1839"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan821",
+            "VLAN_ID": "821"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan823",
+            "VLAN_ID": "823"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan831",
+            "VLAN_ID": "831"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan833",
+            "VLAN_ID": "833"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan840",
+            "VLAN_ID": "840"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan904",
+            "VLAN_ID": "904"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan908",
+            "VLAN_ID": "908"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan922",
+            "VLAN_ID": "922"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan932",
+            "VLAN_ID": "932"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan942",
+            "VLAN_ID": "942"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_NTP",
+            "INTERFACE": "Vlan1802",
+            "VLAN_ID": "1802"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_NTP",
+            "INTERFACE": "Vlan1820",
+            "VLAN_ID": "1820"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_NTP",
+            "INTERFACE": "Vlan1832",
+            "VLAN_ID": "1832"
+        },
+        {
+            "VRF_NAME": "ITS_Z1_PC_CCTV_TCX",
+            "INTERFACE": "Vlan194",
+            "VLAN_ID": "194"
+        },
+        {
+            "VRF_NAME": "ITS_Z1_PC_CCTV_TCX",
+            "INTERFACE": "Vlan198",
+            "VLAN_ID": "198"
+        },
+        {
+            "VRF_NAME": "ITS_Z1_PC_CCTV_TCX",
+            "INTERFACE": "Vlan1192",
+            "VLAN_ID": "1192"
+        },
+        {
+            "VRF_NAME": "ITS_Z1_PC_CCTV_TCX",
+            "INTERFACE": "Vlan1193",
+            "VLAN_ID": "1193"
+        }
+    ],
+    "TU-QLD-CL7-TQIOP-SW-02": [
+        {
+            "VRF_NAME": "ITS_Z1_PC_LWY",
+            "INTERFACE": "Vlan132",
+            "VLAN_ID": "132"
+        },
+        {
+            "VRF_NAME": "ITS_Z1_PC_LWY",
+            "INTERFACE": "Vlan138",
+            "VLAN_ID": "138"
+        },
+        {
+            "VRF_NAME": "ITS_Z1_PC_LWY",
+            "INTERFACE": "Vlan1011",
+            "VLAN_ID": "1011"
+        },
+        {
+            "VRF_NAME": "ITS_Z1_PC_LWY",
+            "INTERFACE": "Vlan1071",
+            "VLAN_ID": "1071"
+        },
+        {
+            "VRF_NAME": "ITS_Z2_STREAMS",
+            "INTERFACE": "Vlan108",
+            "VLAN_ID": "108"
+        },
+        {
+            "VRF_NAME": "ITS_Z2_STREAMS",
+            "INTERFACE": "Vlan109",
+            "VLAN_ID": "109"
+        },
+        {
+            "VRF_NAME": "ITS_Z2_STREAMS",
+            "INTERFACE": "Vlan242",
+            "VLAN_ID": "242"
+        },
+        {
+            "VRF_NAME": "ITS_Z2_STREAMS",
+            "INTERFACE": "Vlan248",
+            "VLAN_ID": "248"
+        },
+        {
+            "VRF_NAME": "ITS_Z2_STREAMS",
+            "INTERFACE": "Vlan1109",
+            "VLAN_ID": "1109"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_QIAN",
+            "INTERFACE": "Vlan802",
+            "VLAN_ID": "802"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_QIAN",
+            "INTERFACE": "Vlan808",
+            "VLAN_ID": "808"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_QIAN",
+            "INTERFACE": "Vlan1803",
+            "VLAN_ID": "1803"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_TQIOP",
+            "INTERFACE": "Vlan812",
+            "VLAN_ID": "812"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_TQIOP",
+            "INTERFACE": "Vlan818",
+            "VLAN_ID": "818"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_TQIOP",
+            "INTERFACE": "Vlan829",
+            "VLAN_ID": "829"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_TQIOP",
+            "INTERFACE": "Vlan838",
+            "VLAN_ID": "838"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_TQIOP",
+            "INTERFACE": "Vlan839",
+            "VLAN_ID": "839"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_TQIOP",
+            "INTERFACE": "Vlan841",
+            "VLAN_ID": "841"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_TQIOP",
+            "INTERFACE": "Vlan921",
+            "VLAN_ID": "921"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_TQIOP",
+            "INTERFACE": "Vlan931",
+            "VLAN_ID": "931"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT_TQIOP",
+            "INTERFACE": "Vlan941",
+            "VLAN_ID": "941"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_AD",
+            "INTERFACE": "Vlan890",
+            "VLAN_ID": "890"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_AD",
+            "INTERFACE": "Vlan1819",
+            "VLAN_ID": "1819"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_AD",
+            "INTERFACE": "Vlan1839",
+            "VLAN_ID": "1839"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan821",
+            "VLAN_ID": "821"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan823",
+            "VLAN_ID": "823"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan831",
+            "VLAN_ID": "831"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan833",
+            "VLAN_ID": "833"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan840",
+            "VLAN_ID": "840"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan902",
+            "VLAN_ID": "902"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan908",
+            "VLAN_ID": "908"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan922",
+            "VLAN_ID": "922"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan932",
+            "VLAN_ID": "932"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_WS",
+            "INTERFACE": "Vlan942",
+            "VLAN_ID": "942"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_NTP",
+            "INTERFACE": "Vlan1812",
+            "VLAN_ID": "1812"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_NTP",
+            "INTERFACE": "Vlan1820",
+            "VLAN_ID": "1820"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_NTP",
+            "INTERFACE": "Vlan1832",
+            "VLAN_ID": "1832"
+        },
+        {
+            "VRF_NAME": "ITS_Z1_PC_CCTV_TCX",
+            "INTERFACE": "Vlan193",
+            "VLAN_ID": "193"
+        },
+        {
+            "VRF_NAME": "ITS_Z1_PC_CCTV_TCX",
+            "INTERFACE": "Vlan198",
+            "VLAN_ID": "198"
+        },
+        {
+            "VRF_NAME": "ITS_Z1_PC_CCTV_TCX",
+            "INTERFACE": "Vlan1192",
+            "VLAN_ID": "1192"
+        },
+        {
+            "VRF_NAME": "ITS_Z1_PC_CCTV_TCX",
+            "INTERFACE": "Vlan1193",
+            "VLAN_ID": "1193"
+        }
+    ],
+    "TU-QLD-QIAN-TCC-SW-COR-01": [
+        {
+            "VRF_NAME": "ITS_Z35_NTP",
+            "INTERFACE": "Vlan1802",
+            "VLAN_ID": "1802"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT",
+            "INTERFACE": "Vlan1803",
+            "VLAN_ID": "1803"
+        }
+    ],
+    "TU-QLD-QIAN-TCC-SW-COR-02": [
+        {
+            "VRF_NAME": "ITS_Z35_NTP",
+            "INTERFACE": "Vlan1802",
+            "VLAN_ID": "1802"
+        },
+        {
+            "VRF_NAME": "ITS_Z35_MGMT",
+            "INTERFACE": "Vlan1803",
+            "VLAN_ID": "1803"
+        }
+    ],
+    "TU-SY2-SW-CRP-01": [
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan65",
+            "VLAN_ID": "65"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan66",
+            "VLAN_ID": "66"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan3744",
+            "VLAN_ID": "3744"
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-COR-PRD-01": [
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan65",
+            "VLAN_ID": "65"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan693",
+            "VLAN_ID": "693"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan2806",
+            "VLAN_ID": "2806"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan3860",
+            "VLAN_ID": "3860"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan3861",
+            "VLAN_ID": "3861"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan3862",
+            "VLAN_ID": "3862"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan3865",
+            "VLAN_ID": "3865"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan3867",
+            "VLAN_ID": "3867"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan3868",
+            "VLAN_ID": "3868"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan3869",
+            "VLAN_ID": "3869"
+        }
+    ],
+    "TU-VIC-DC1-L0-SW-COR-PRD-02": [
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan66",
+            "VLAN_ID": "66"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan692",
+            "VLAN_ID": "692"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan2806",
+            "VLAN_ID": "2806"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan3860",
+            "VLAN_ID": "3860"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan3861",
+            "VLAN_ID": "3861"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan3863",
+            "VLAN_ID": "3863"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan3864",
+            "VLAN_ID": "3864"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan3865",
+            "VLAN_ID": "3865"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan3867",
+            "VLAN_ID": "3867"
+        },
+        {
+            "VRF_NAME": "ITS",
+            "INTERFACE": "Vlan3868",
+            "VLAN_ID": "3868"
+        }
+    ],
+    "TUVA-EOC-N93-01": [
+        {
+            "VRF_NAME": "ITS_P_3",
+            "INTERFACE": "Vlan669",
+            "VLAN_ID": "669"
+        },
+        {
+            "VRF_NAME": "ITS_P_3",
+            "INTERFACE": "Vlan3860",
+            "VLAN_ID": "3860"
+        },
+        {
+            "VRF_NAME": "ITS_P_3",
+            "INTERFACE": "Vlan3861",
+            "VLAN_ID": "3861"
+        },
+        {
+            "VRF_NAME": "ITS_P_3",
+            "INTERFACE": "Vlan3862",
+            "VLAN_ID": "3862"
+        },
+        {
+            "VRF_NAME": "ITS_P_3",
+            "INTERFACE": "Vlan3869",
+            "VLAN_ID": "3869"
+        }
+    ],
+    "TUVA-EOC-N93-02": [
+        {
+            "VRF_NAME": "ITS_P_3",
+            "INTERFACE": "Vlan3860",
+            "VLAN_ID": "3860"
+        },
+        {
+            "VRF_NAME": "ITS_P_3",
+            "INTERFACE": "Vlan3861",
+            "VLAN_ID": "3861"
+        },
+        {
+            "VRF_NAME": "ITS_P_3",
+            "INTERFACE": "Vlan3869",
+            "VLAN_ID": "3869"
+        }
+    ],
+    "TUVA-RAW-N93-01": [
+        {
+            "VRF_NAME": "ITS_P_3",
+            "INTERFACE": "Vlan669",
+            "VLAN_ID": "669"
+        },
+        {
+            "VRF_NAME": "ITS_P_3",
+            "INTERFACE": "Vlan3860",
+            "VLAN_ID": "3860"
+        },
+        {
+            "VRF_NAME": "ITS_P_3",
+            "INTERFACE": "Vlan3861",
+            "VLAN_ID": "3861"
+        },
+        {
+            "VRF_NAME": "ITS_P_3",
+            "INTERFACE": "Vlan3862",
+            "VLAN_ID": "3862"
+        },
+        {
+            "VRF_NAME": "ITS_P_3",
+            "INTERFACE": "Vlan3869",
+            "VLAN_ID": "3869"
+        }
+    ],
+    "TUVA-RAW-N93-02": [
+        {
+            "VRF_NAME": "ITS_P_3",
+            "INTERFACE": "Vlan3860",
+            "VLAN_ID": "3860"
+        },
+        {
+            "VRF_NAME": "ITS_P_3",
+            "INTERFACE": "Vlan3861",
+            "VLAN_ID": "3861"
+        },
+        {
+            "VRF_NAME": "ITS_P_3",
+            "INTERFACE": "Vlan3869",
+            "VLAN_ID": "3869"
+        }
+    ]
+}

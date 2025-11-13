@@ -1,0 +1,228 @@
+﻿Interface,Interface Type,Management Profile,Link State,IP Address,Virtual Router,Tag,VLAN / Virtual Wire,Virtual System,Security Zone,SD WAN Interface Profile,Upstream NAT,Features,Comment
+ethernet1/1,Layer3,,ethernet1/1: configured but down,none,none,Untagged,none,vsys1,none,,Disabled,,
+ethernet1/2,Layer3,,ethernet1/2: configured but down,none,none,Untagged,none,vsys1,none,,Disabled,,
+ethernet1/3,,,ethernet1/3: not configured and down,none,none,Untagged,none,none,none,,Disabled,,
+ethernet1/4,,,ethernet1/4: not configured and down,none,none,Untagged,none,none,none,,Disabled,,
+ethernet1/5,Aggregate (ae1),,Link Speed: 10000 Mbps;Link Duplex: full;ethernet1/5: configured and up,none,none,Untagged,none,none,none,,Disabled,,
+ethernet1/6,Aggregate (ae1),,Link Speed: 10000 Mbps;Link Duplex: full;ethernet1/6: configured and up,none,none,Untagged,none,none,none,,Disabled,,
+ethernet1/7,Layer3,,Link Speed: 10000 Mbps;Link Duplex: full;ethernet1/7: configured but down,none,none,Untagged,none,vsys1,none,,Disabled,,
+ethernet1/8,Layer3,,Link Speed: 10000 Mbps;Link Duplex: full;ethernet1/8: configured but down,none,none,Untagged,none,vsys1,none,,Disabled,,
+ethernet1/9,Aggregate (ae5),,Link Speed: 10000 Mbps;Link Duplex: full;ethernet1/9: configured and up,none,none,Untagged,none,none,none,,Disabled,,
+ethernet1/10,Aggregate (ae5),,Link Speed: 10000 Mbps;Link Duplex: full;ethernet1/10: configured and up,none,none,Untagged,none,none,none,,Disabled,,
+ethernet1/11,Layer3,,Link Speed: 10000 Mbps;Link Duplex: full;ethernet1/11: configured but down,none,none,Untagged,none,vsys1,none,,Disabled,,
+ethernet1/12,Layer3,,Link Speed: 10000 Mbps;Link Duplex: full;ethernet1/12: configured but down,none,none,Untagged,none,vsys1,none,,Disabled,,
+ethernet1/13,Layer3,,Link Speed: 10000 Mbps;Link Duplex: full;ethernet1/13: configured but down,none,none,Untagged,none,vsys1,none,,Disabled,,
+ethernet1/14,Layer3,,Link Speed: 10000 Mbps;Link Duplex: full;ethernet1/14: configured but down,none,none,Untagged,none,vsys1,none,,Disabled,,
+ethernet1/15,Aggregate (ae5),,Link Speed: 10000 Mbps;Link Duplex: full;ethernet1/15: configured and up,none,none,Untagged,none,none,none,,Disabled,,
+ethernet1/16,Aggregate (ae6),,Link Speed: 10000 Mbps;Link Duplex: full;ethernet1/16: configured and up,none,none,Untagged,none,none,none,,Disabled,,
+ethernet1/17,Aggregate (ae6),,Link Speed: 10000 Mbps;Link Duplex: full;ethernet1/17: configured and up,none,none,Untagged,none,none,none,,Disabled,,
+ethernet1/18,Aggregate (ae6),,Link Speed: 10000 Mbps;Link Duplex: full;ethernet1/18: configured and up,none,none,Untagged,none,none,none,,Disabled,,
+ethernet1/19,HA,,Link Speed: 10000 Mbps;Link Duplex: full;ethernet1/19: configured and up,none,none,Untagged,none,none,none,,Disabled,,HA2 - primary interface
+ethernet1/20,HA,,Link Speed: 10000 Mbps;Link Duplex: full;ethernet1/20: configured and up,none,none,Untagged,none,none,none,,Disabled,,HA2 - backup interface
+ethernet1/21,,,Link Speed: 100000 Mbps;Link Duplex: full;ethernet1/21: not configured and down,none,none,Untagged,none,none,none,,Disabled,,
+ethernet1/22,,,Link Speed: 100000 Mbps;Link Duplex: full;ethernet1/22: not configured and down,none,none,Untagged,none,none,none,,Disabled,,
+ethernet1/23,,,Link Speed: 100000 Mbps;Link Duplex: full;ethernet1/23: not configured and down,none,none,Untagged,none,none,none,,Disabled,,
+ethernet1/24,Layer3,,Link Speed: 100000 Mbps;Link Duplex: full;ethernet1/24: configured but down,none,none,Untagged,none,none,none,,Disabled,,Northbound_To_TR01
+ae1,Layer3,,Type: lacp;State: Enabled;Mode: Passive;Local Key: 16;Local MAC: 08:30:6b:84:08:01;Local Priority: 32768;Partner Key: 110;Partner MAC: cc:ed:4d:67:32:0b;Partner Priority: 32768;Member (ethernet1/5): active;Member (ethernet1/6): active,none,default,Untagged,none,vsys1,none,,Disabled,LACP Enable,Data traffic
+ae1.18,Layer3,Allow-Ping,ae1.18: unknown,10.5.5.1/24,MIT-VR-VSYS-DEVTEST,18,none,TUVIC-MIT-PA-DEVTEST-FW,MIT-DEVTEST-Services,,Disabled,,VLAN0018
+ae1.28,Layer3,Allow-Ping,ae1.28: unknown,192.168.28.1/24,MIT-VR-VSYS-CORP,28,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,VIC-DC-Roadside
+ae1.50,Layer3,Allow-Ping,ae1.50: unknown,192.168.50.1/24,MIT-VR-VSYS-TOLL,50,none,TUVIC-MIT-PA-TOLL-FW,MIT-TOLL-Services,,Disabled,,MIT-PCI_M2
+ae1.68,Layer3,Allow-Ping,ae1.68: unknown,192.168.90.1/24,MIT-VR-VSYS-TOLL,68,none,TUVIC-MIT-PA-TOLL-FW,MIT-TOLL-Services,,Disabled,,bureau
+ae1.79,Layer3,Allow-Ping,ae1.79: unknown,10.10.1.1/24,MIT-VR-VSYS-TOLL,79,none,TUVIC-MIT-PA-TOLL-FW,MIT-TOLL-Services,,Disabled,,GLIDe_external_vip
+ae1.80,Layer3,Allow-Ping,ae1.80: unknown,172.19.1.1/24,MIT-VR-VSYS-CORP,80,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,GLIDe_web_layer
+ae1.81,Layer3,Allow-Ping,ae1.81: unknown,10.10.7.1/24,MIT-VR-VSYS-TOLL,81,none,TUVIC-MIT-PA-TOLL-FW,MIT-TOLL-Services,,Disabled,,GLIDe_prod_ext_admin_vs
+ae1.82,Layer3,Allow-Ping,ae1.82: unknown,172.19.2.1/24,MIT-VR-VSYS-TOLL,82,none,TUVIC-MIT-PA-TOLL-FW,MIT-TOLL-Services,,Disabled,,GLIDe_app_dat_layer
+ae1.83,Layer3,Allow-Ping,ae1.83: unknown,172.19.8.1/24,MIT-VR-VSYS-TOLL,83,none,TUVIC-MIT-PA-TOLL-FW,MIT-TOLL-Services,,Disabled,,GLIDe_Restricted_LAN
+ae1.84,Layer3,Allow-Ping,ae1.84: unknown,172.19.4.1/24,MIT-VR-VSYS-DEVTEST,84,none,TUVIC-MIT-PA-DEVTEST-FW,MIT-DEVTEST-Services,,Disabled,,MIT-Data_Migration_Network
+ae1.89,Layer3,Allow-Ping,ae1.89: unknown,172.19.9.1/24,MIT-VR-VSYS-TOLL,89,none,TUVIC-MIT-PA-TOLL-FW,MIT-TOLL-Services,,Disabled,,Dynatrace_PCI
+ae1.104,Layer3,Allow-Ping,ae1.104: unknown,192.168.78.1/24,MIT-VR-VSYS-CORP,104,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,ops-lan
+ae1.107,Layer3,Allow-Ping,ae1.107: unknown,10.152.11.1/24,MIT-VR-VSYS-DEVTEST,107,none,TUVIC-MIT-PA-DEVTEST-FW,MIT-DEVTEST-Services,,Disabled,,trust_epodatabase_server
+ae1.108,Layer3,Allow-Ping,ae1.108: unknown,10.152.12.1/24,MIT-VR-VSYS-DEVTEST,108,none,TUVIC-MIT-PA-DEVTEST-FW,MIT-DEVTEST-Services,,Disabled,,semi_trust_epo_app_server
+ae1.112,Layer3,Allow-Ping,ae1.112: unknown,192.168.102.1/24,MIT-VR-VSYS-CORP,112,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,tushared_services
+ae1.113,Layer3,Allow-Ping,ae1.113: unknown,192.168.113.1/24,MIT-VR-VSYS-CORP,113,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,Facilities_Management-MIT
+ae1.149,Layer3,Allow-Ping,ae1.149: unknown,192.168.149.1/24,MIT-VR-VSYS-CORP,149,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,mit_network_mgmt
+ae1.163,Layer3,Allow-Ping,ae1.163: unknown,10.97.32.1/20,MIT-VR-VSYS-CORP,163,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,TuPDA_WLAN
+ae1.181,Layer3,Allow-Ping,ae1.181: unknown,10.152.1.1/24,MIT-VR-VSYS-DEVTEST,181,none,TUVIC-MIT-PA-DEVTEST-FW,MIT-DEVTEST-Services,,Disabled,,MIT-DEV-CompConfidential-WebApp
+ae1.182,Layer3,Allow-Ping,ae1.182: unknown,10.152.2.1/24,MIT-VR-VSYS-DEVTEST,182,none,TUVIC-MIT-PA-DEVTEST-FW,MIT-DEVTEST-Services,,Disabled,,MIT-DEV-CompConfidential-DB
+ae1.205,Layer3,Allow-Ping,ae1.205: unknown,192.168.205.1/24,MIT-VR-VSYS-CORP,205,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,VIC_SHARED_SERVICES_DB
+ae1.206,Layer3,Allow-Ping,ae1.206: unknown,192.168.206.1/24,MIT-VR-VSYS-CORP,206,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,VIC_SHARED_SERVICES_APP
+ae1.207,Layer3,Allow-Ping,ae1.207: unknown,192.168.207.1/28,MIT-VR-VSYS-CORP,207,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,VIC_Protected_App_LAN
+ae1.209,Layer3,Allow-Ping,ae1.209: unknown,192.168.209.254/24,MIT-VR-VSYS-CORP,209,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,Corp_Internal_Web_LAN
+ae1.210,Layer3,Allow-Ping,ae1.210: unknown,192.168.210.254/24,MIT-VR-VSYS-CORP,210,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,Corp_App_and_DB_LAN
+ae1.215,Layer3,Allow-Ping,ae1.215: unknown,192.168.215.1/24,MIT-VR-VSYS-CORP,215,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,Corp_PCI_LAN
+ae1.216,Layer3,Allow-Ping,ae1.216: unknown,192.168.216.1/24,MIT-VR-VSYS-CORP,216,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,Corp_CUBE_LAN
+ae1.229,Layer3,Allow-Ping,ae1.229: unknown,192.168.229.1/24,MIT-VR-VSYS-CORP,229,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,Corp_Infrastructure_Services
+ae1.241,Layer3,Allow-Ping,ae1.241: unknown,10.152.3.1/24,MIT-VR-VSYS-CORP,241,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,MIT-PROD-CompConfidential-WebApp
+ae1.242,Layer3,Allow-Ping,ae1.242: unknown,10.152.4.1/24,MIT-VR-VSYS-CORP,242,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,MIT-PROD-CompConfidential-DB
+ae1.246,Layer3,Allow-Ping,ae1.246: unknown,10.152.8.1/24,MIT-VR-VSYS-DEVTEST,246,none,TUVIC-MIT-PA-DEVTEST-FW,MIT-DEVTEST-Services,,Disabled,,MIT_IAM_Test_VLAN
+ae1.413,Layer3,Allow-Ping,ae1.413: unknown,10.152.13.1/24,MIT-VR-VSYS-CORP,413,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,Terminal_Server
+ae1.600,Layer3,Allow-Ping,ae1.600: unknown,10.20.0.1/24,MIT-VR-VSYS-DEVTEST,600,none,TUVIC-MIT-PA-DEVTEST-FW,MIT-DEVTEST-Services,,Disabled,,WM7_Dev_Management
+ae1.601,Layer3,Allow-Ping,ae1.601: unknown,10.20.1.1/24,MIT-VR-VSYS-DEVTEST,601,none,TUVIC-MIT-PA-DEVTEST-FW,MIT-DEVTEST-Services,,Disabled,,WM7_Dev_Users
+ae1.602,Layer3,Allow-Ping,ae1.602: unknown,10.20.2.1/24,MIT-VR-VSYS-DEVTEST,602,none,TUVIC-MIT-PA-DEVTEST-FW,MIT-DEVTEST-Services,,Disabled,,WM7_Dev_Corporate
+ae1.603,Layer3,Allow-Ping,ae1.603: unknown,10.20.3.1/24,MIT-VR-VSYS-DEVTEST,603,none,TUVIC-MIT-PA-DEVTEST-FW,MIT-DEVTEST-Services,,Disabled,,WM7_Dev_Protected
+ae1.604,Layer3,Allow-Ping,ae1.604: unknown,10.20.4.1/24,MIT-VR-VSYS-DEVTEST,604,none,TUVIC-MIT-PA-DEVTEST-FW,MIT-DEVTEST-Services,,Disabled,,WM7_Dev_PCI
+ae1.605,Layer3,Allow-Ping,ae1.605: unknown,10.20.5.1/24,MIT-VR-VSYS-DEVTEST,605,none,TUVIC-MIT-PA-DEVTEST-FW,MIT-DEVTEST-Services,,Disabled,,WM7_Dev_DMZ
+ae1.800,Layer3,Allow-Ping,ae1.800: unknown,10.153.20.1/24,MIT-VR-VSYS-CORP,800,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,ITS-VDI-Internal
+ae1.801,Layer3,Allow-Ping,ae1.801: unknown,10.153.21.1/24,MIT-VR-VSYS-CORP,801,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,ITS-VDI-External
+ae1.802,Layer3,Allow-Ping,ae1.802: unknown,10.153.22.1/24,MIT-VR-VSYS-CORP,802,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,ServiceNow_MIT
+ae1.804,Layer3,Allow-Ping,ae1.804: unknown,10.153.24.1/24,MIT-VR-VSYS-CORP,804,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,DHCP Relay,VDI_A
+ae1.805,Layer3,Allow-Ping,ae1.805: unknown,10.153.25.1/24,MIT-VR-VSYS-CORP,805,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,DHCP Relay,VDI_B
+ae1.806,Layer3,Allow-Ping,ae1.806: unknown,10.153.26.1/24,MIT-VR-VSYS-CORP,806,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,DHCP Relay,VDI_C
+ae1.807,Layer3,Allow-Ping,ae1.807: unknown,10.153.27.1/24,MIT-VR-VSYS-CORP,807,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,DHCP Relay,VDI_D
+ae1.1017,Layer3,Allow-Ping,ae1.1017: unknown,10.152.17.1/24,MIT-VR-VSYS-CORP,1017,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,Highly_Conf_Active_Active_Web
+ae1.1018,Layer3,Allow-Ping,ae1.1018: unknown,10.152.18.1/24,MIT-VR-VSYS-CORP,1018,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,Highly_Conf_Active_Active_DB
+ae1.1104,Layer3,Allow-Ping,ae1.1104: unknown,10.10.2.1/24,MIT-VR-VSYS-TOLL,1104,none,TUVIC-MIT-PA-TOLL-FW,MIT-TOLL-Services,,Disabled,,f5_glide_extsnat
+ae1.1105,Layer3,Allow-Ping,ae1.1105: unknown,10.10.3.1/24,MIT-VR-VSYS-CORP,1105,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,f5_corp_extvip
+ae1.1106,Layer3,Allow-Ping,ae1.1106: unknown,10.10.4.1/24,MIT-VR-VSYS-CORP,1106,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,f5_corp_extsnat
+ae1.1128,Layer3,Allow-Ping,ae1.1128: unknown,10.153.128.1/24,MIT-VR-VSYS-CORP,1128,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,FireEye_Management_MIT
+ae1.1201,Layer3,Allow-NW-MGMT-Traffic,ae1.1201: unknown,10.3.2.1/29,MIT-VR-VSYS-CORP,1201,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-LAN_Core,,Disabled,Netflow Profile: Netflow-Servers,TUVIC-CORP-FW_Core_Handoff
+ae1.1202,Layer3,Allow-NW-MGMT-Traffic,ae1.1202: unknown,10.3.2.9/29,MIT-VR-VSYS-TOLL,1202,none,TUVIC-MIT-PA-TOLL-FW,MIT-TOLL-LAN_Core,,Disabled,Netflow Profile: Netflow-Servers,TUVIC-TOLL-FW_Core_Handoff
+ae1.1203,Layer3,Allow-NW-MGMT-Traffic,ae1.1203: unknown,10.3.2.17/29,MIT-VR-VSYS-DEVTEST,1203,none,TUVIC-MIT-PA-DEVTEST-FW,MIT-DEVTEST-LAN_Core,,Disabled,Netflow Profile: Netflow-Servers,TUVIC-DEVTEST-FW_Core_Handoff
+ae1.1299,Layer3,Allow-Ping,ae1.1299: unknown,10.3.2.113/29,MIT-VR-VSYS-CORP,1299,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-LAN_Core,,Disabled,Netflow Profile: Netflow-Servers,test interface
+ae1.1607,Layer3,Allow-Ping,ae1.1607: unknown,10.52.7.1/24,MIT-VR-VSYS-CORP,1607,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,1607_EA_DC1_P_Z1_GEN_vRA_wkld
+ae1.1615,Layer3,Allow-Ping,ae1.1615: unknown,10.52.15.1/24,MIT-VR-VSYS-CORP,1615,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,1615_EA_DC1_P_Z1_SEC_vRA_wkld
+ae1.1667,Layer3,Allow-Ping,ae1.1667: unknown,10.52.67.1/24,MIT-VR-VSYS-CORP,1667,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,App_General_Z2
+ae1.1671,Layer3,Allow-Ping,ae1.1671: unknown,10.52.71.1/24,MIT-VR-VSYS-CORP,1671,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,1671_EA_DC1_P_Z2_GEN_vRA_wkld
+ae1.1675,Layer3,Allow-Ping,ae1.1675: unknown,10.52.75.1/24,MIT-VR-VSYS-CORP,1675,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,Axway Server - 1675_EA_P_APP_SEC_TENANT
+ae1.1676,Layer3,Allow-Ping,ae1.1676: unknown,10.52.76.1/24,MIT-VR-VSYS-CORP,1676,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,Axway Server - 1676_EA_P_APP_SEC_TENANT
+ae1.1679,Layer3,Allow-Ping,ae1.1679: unknown,10.52.79.1/24,MIT-VR-VSYS-CORP,1679,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,1679_EA_DC1_P_Z2_SEC_vRA_wkld
+ae1.1735,Layer3,Allow-Ping,ae1.1735: unknown,10.52.135.1/24,MIT-VR-VSYS-CORP,1735,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,1735_EA_DC1_P_Z3_GEN_vRA_wkld
+ae1.1741,Layer3,Allow-Ping,ae1.1741: unknown,10.52.141.1/24,MIT-VR-VSYS-CORP,1741,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,1741_EA_DC1_P_Z3_SEC_vRA_wkld
+ae1.1807,Layer3,Allow-Ping,ae1.1807: unknown,10.224.7.1/24,MIT-VR-VSYS-CORP,1807,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,1807_EA_DC1_D_Z1_GEN_vRA_wkld
+ae1.1815,Layer3,Allow-Ping,ae1.1815: unknown,10.224.15.1/24,MIT-VR-VSYS-CORP,1815,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,1815_EA_DC1_D_Z1_SEC_vRA_wkld
+ae1.1871,Layer3,Allow-Ping,ae1.1871: unknown,10.224.71.1/24,MIT-VR-VSYS-CORP,1871,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,1871_EA_DC1_D_Z2_GEN_vRA_wkld
+ae1.1879,Layer3,Allow-Ping,ae1.1879: unknown,10.224.79.1/24,MIT-VR-VSYS-CORP,1879,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,
+ae1.1935,Layer3,Allow-Ping,ae1.1935: unknown,10.224.135.1/24,MIT-VR-VSYS-CORP,1935,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,1935_EA_DC1_D_Z3_GEN_vRA_wkld
+ae1.1941,Layer3,Allow-Ping,ae1.1941: unknown,10.224.141.1/24,MIT-VR-VSYS-CORP,1941,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,1941_EA_DC1_D_Z3_SEC_vRA_wkld
+ae1.2267,Layer3,Allow-Ping,ae1.2267: unknown,10.54.67.1/24,MIT-VR-VSYS-CORP,2267,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,Call Recording SVI PCI CHG0166910
+ae1.2801,Layer3,Allow-Ping,ae1.2801: unknown,10.208.1.1/24,MIT-VR-VSYS-CORP,2801,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,DHCP Relay,VDI_ITS_Internal_Z3
+ae1.2902,Layer3,Allow-Ping,ae1.2902: unknown,10.131.2.1/24,MIT-VR-VSYS-CORP,2902,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-LAN_Core,,Disabled,DHCP Relay,2902_CU_DC1_COD_VPNUSR
+ae1.3821,Layer3,Allow-Ping,ae1.3821: unknown,10.52.64.1/29,MIT-VR-VSYS-CORP,3821,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,ADC_Transit_Z3
+ae1.3832,Layer3,Allow-Ping,ae1.3832: unknown,10.52.136.1/29,MIT-VR-VSYS-CORP,3832,none,TUVIC-MIT-PA-CORP-FW,MIT-CORP-Services,,Disabled,,3832_EA_P_PRS_SEC_ADC_XCONN
+ae5,Layer3,,Type: lacp;State: Enabled;Mode: Passive;Local Key: 20;Local MAC: 08:30:6b:84:08:01;Local Priority: 32768;Partner Key: 17;Partner MAC: cc:ed:4d:67:32:0b;Partner Priority: 32768;Member (ethernet1/15): active;Member (ethernet1/9): active;Member (ethernet1/10): active,none,none,Untagged,none,none,none,,Disabled,LACP Enable,Southbound_to_Swimlanes_VRFs
+ae5.212,Layer3,Allow-Ping,ae5.212: unknown,10.122.0.17/29,EA_VR,212,none,EA,EA_BMS_SEC,,Disabled,,EA_BMS_To_COR
+ae5.1300,Layer3,Allow-Ping,ae5.1300: unknown,10.202.0.1/24,MSS_VR,1300,none,MSS,MSS_N_APP_HIGH,,Disabled,,1300_MSS_DC1_N_APP_HIGH_TENANT_1
+ae5.1301,Layer3,Allow-Ping,ae5.1301: unknown,10.202.1.1/24,MSS_VR,1301,none,MSS,MSS_N_APP_HIGH,,Disabled,,1301_MSS_DC1_N_APP_HIGH_ESX-OOB
+ae5.1302,Layer3,Allow-Ping,ae5.1302: unknown,10.202.2.1/24,MSS_VR,1302,none,MSS,MSS_N_APP_HIGH,,Disabled,,1302_MSS_DC1_N_APP_HIGH_TENANT_3
+ae5.1303,Layer3,Allow-Ping,ae5.1303: unknown,10.202.3.1/24,MSS_VR,1303,none,MSS,MSS_N_APP_HIGH,,Disabled,,1303_MSS_DC1_N_APP_HIGH_TENANT_4
+ae5.1304,Layer3,Allow-Ping,ae5.1304: unknown,10.202.4.1/24,MSS_VR,1304,none,MSS,MSS_N_APP_HIGH,,Disabled,,1304_MSS_DC1_N_APP_HIGH_TENANT_5
+ae5.1305,Layer3,Allow-Ping,ae5.1305: unknown,10.202.5.1/24,MSS_VR,1305,none,MSS,MSS_N_APP_HIGH,,Disabled,,1305_MSS_DC1_N_APP_HIGH_TENANT_6
+ae5.1306,Layer3,Allow-Ping,ae5.1306: unknown,10.202.6.1/24,MSS_VR,1306,none,MSS,MSS_N_APP_HIGH,,Disabled,,1306_MSS_DC1_N_APP_HIGH_TENANT_7
+ae5.1307,Layer3,Allow-Ping,ae5.1307: unknown,10.202.7.1/24,MSS_VR,1307,none,MSS,MSS_N_APP_HIGH,,Disabled,,1307_MSS_DC1_N_APP_HIGH_TENANT_8
+ae5.1308,Layer3,Allow-Ping,ae5.1308: unknown,10.202.8.1/24,MSS_VR,1308,none,MSS,MSS_N_APP_MED,,Disabled,,1308_MSS_DC1_N_APP_MED_TENANT_1
+ae5.1309,Layer3,Allow-Ping,ae5.1309: unknown,10.202.9.1/24,MSS_VR,1309,none,MSS,MSS_N_APP_MED,,Disabled,,1309_MSS_DC1_N_APP_MED_TENANT_2
+ae5.1310,Layer3,Allow-Ping,ae5.1310: unknown,10.202.10.1/24,MSS_VR,1310,none,MSS,MSS_N_APP_MED,,Disabled,,1310_MSS_DC1_N_APP_MED_ESX-FRONT
+ae5.1311,Layer3,Allow-Ping,ae5.1311: unknown,10.202.11.1/24,MSS_VR,1311,none,MSS,MSS_N_APP_MED,,Disabled,,1311_MSS_DC1_N_APP_MED_TENANT_4
+ae5.1312,Layer3,Allow-Ping,ae5.1312: unknown,10.202.12.1/24,MSS_VR,1312,none,MSS,MSS_N_APP_MED,,Disabled,,1312_MSS_DC1_N_APP_MED_TENANT_5
+ae5.1313,Layer3,Allow-Ping,ae5.1313: unknown,10.202.13.1/24,MSS_VR,1313,none,MSS,MSS_N_APP_MED,,Disabled,,1313_MSS_DC1_N_APP_MED_TENANT_6
+ae5.1314,Layer3,Allow-Ping,ae5.1314: unknown,10.202.14.1/24,MSS_VR,1314,none,MSS,MSS_N_APP_MED,,Disabled,,1314_MSS_DC1_N_APP_MED_TENANT_7
+ae5.1315,Layer3,Allow-Ping,ae5.1315: unknown,10.202.15.1/24,MSS_VR,1315,none,MSS,MSS_N_APP_MED,,Disabled,,1315_MSS_DC1_N_APP_MED_TENANT_8
+ae5.1316,Layer3,Allow-Ping,ae5.1316: unknown,10.202.16.1/24,MSS_VR,1316,none,MSS,MSS_N_APP_LOW,,Disabled,,1316_MSS_DC1_N_APP_LOW_TENANT_1
+ae5.1317,Layer3,Allow-Ping,ae5.1317: unknown,10.202.17.1/24,MSS_VR,1317,none,MSS,MSS_N_APP_LOW,,Disabled,,1317_MSS_DC1_N_APP_LOW_TENANT_2
+ae5.1318,Layer3,Allow-Ping,ae5.1318: unknown,10.202.18.1/24,MSS_VR,1318,none,MSS,MSS_N_APP_LOW,,Disabled,,1318_MSS_DC1_N_APP_LOW_TENANT_3
+ae5.1319,Layer3,Allow-Ping,ae5.1319: unknown,10.202.19.1/24,MSS_VR,1319,none,MSS,MSS_N_APP_LOW,,Disabled,,1319_MSS_DC1_N_APP_LOW_TENANT_4
+ae5.1320,Layer3,Allow-Ping,ae5.1320: unknown,10.202.20.1/24,MSS_VR,1320,none,MSS,MSS_N_APP_LOW,,Disabled,,1320_MSS_DC1_N_APP_LOW_TENANT_5
+ae5.1321,Layer3,Allow-Ping,ae5.1321: unknown,10.202.21.1/24,MSS_VR,1321,none,MSS,MSS_N_APP_LOW,,Disabled,,1321_MSS_DC1_N_APP_LOW_TENANT_6
+ae5.1322,Layer3,Allow-Ping,ae5.1322: unknown,10.202.22.1/24,MSS_VR,1322,none,MSS,MSS_N_APP_LOW,,Disabled,,1322_MSS_DC1_N_APP_LOW_TENANT_7
+ae5.1323,Layer3,Allow-Ping,ae5.1323: unknown,10.202.23.1/24,MSS_VR,1323,none,MSS,MSS_N_APP_LOW,,Disabled,,1323_MSS_DC1_N_APP_LOW_TENANT_8
+ae5.1332,Layer3,Allow-Ping,ae5.1332: unknown,10.202.32.1/24,MSS_VR,1332,none,MSS,MSS_N_DAT_HIGH,,Disabled,,1332_MSS_DC1_N_DAT_HIGH_TENANT_1
+ae5.1333,Layer3,Allow-Ping,ae5.1333: unknown,10.202.33.1/24,MSS_VR,1333,none,MSS,MSS_N_DAT_HIGH,,Disabled,,1333_MSS_DC1_N_DAT_HIGH_TENANT_2
+ae5.1334,Layer3,Allow-Ping,ae5.1334: unknown,10.202.34.1/24,MSS_VR,1334,none,MSS,MSS_N_DAT_HIGH,,Disabled,,1334_MSS_DC1_N_DAT_HIGH_TENANT_3
+ae5.1335,Layer3,Allow-Ping,ae5.1335: unknown,10.202.35.1/24,MSS_VR,1335,none,MSS,MSS_N_DAT_HIGH,,Disabled,,1335_MSS_DC1_N_DAT_HIGH_TENANT_4
+ae5.1336,Layer3,Allow-Ping,ae5.1336: unknown,10.202.36.1/24,MSS_VR,1336,none,MSS,MSS_N_DAT_HIGH,,Disabled,,1336_MSS_DC1_N_DAT_HIGH_TENANT_5
+ae5.1337,Layer3,Allow-Ping,ae5.1337: unknown,10.202.37.1/24,MSS_VR,1337,none,MSS,MSS_N_DAT_HIGH,,Disabled,,1337_MSS_DC1_N_DAT_HIGH_TENANT_6
+ae5.1338,Layer3,Allow-Ping,ae5.1338: unknown,10.202.38.1/24,MSS_VR,1338,none,MSS,MSS_N_DAT_HIGH,,Disabled,,1338_MSS_DC1_N_DAT_HIGH_TENANT_7
+ae5.1339,Layer3,Allow-Ping,ae5.1339: unknown,10.202.39.1/24,MSS_VR,1339,none,MSS,MSS_N_DAT_HIGH,,Disabled,,1339_MSS_DC1_N_DAT_HIGH_TENANT_8
+ae5.1340,Layer3,Allow-Ping,ae5.1340: unknown,10.202.40.1/24,MSS_VR,1340,none,MSS,MSS_N_DAT_MED,,Disabled,,1340_MSS_DC1_N_DAT_MED_TENANT_1
+ae5.1341,Layer3,Allow-Ping,ae5.1341: unknown,10.202.41.1/24,MSS_VR,1341,none,MSS,MSS_N_DAT_MED,,Disabled,,1341_MSS_DC1_N_DAT_MED_TENANT_2
+ae5.1342,Layer3,Allow-Ping,ae5.1342: unknown,10.202.42.1/24,MSS_VR,1342,none,MSS,MSS_N_DAT_MED,,Disabled,,1342_MSS_DC1_N_DAT_MED_TENANT_3
+ae5.1343,Layer3,Allow-Ping,ae5.1343: unknown,10.202.43.1/24,MSS_VR,1343,none,MSS,MSS_N_DAT_MED,,Disabled,,1343_MSS_DC1_N_DAT_MED_TENANT_4
+ae5.1344,Layer3,Allow-Ping,ae5.1344: unknown,10.202.44.1/24,MSS_VR,1344,none,MSS,MSS_N_DAT_MED,,Disabled,,1344_MSS_DC1_N_DAT_MED_TENANT_5
+ae5.1345,Layer3,Allow-Ping,ae5.1345: unknown,10.202.45.1/24,MSS_VR,1345,none,MSS,MSS_N_DAT_MED,,Disabled,,1345_MSS_DC1_N_DAT_MED_TENANT_6
+ae5.1346,Layer3,Allow-Ping,ae5.1346: unknown,10.202.46.1/24,MSS_VR,1346,none,MSS,MSS_N_DAT_MED,,Disabled,,1346_MSS_DC1_N_DAT_MED_TENANT_7
+ae5.1347,Layer3,Allow-Ping,ae5.1347: unknown,10.202.47.1/24,MSS_VR,1347,none,MSS,MSS_N_DAT_MED,,Disabled,,1347_MSS_DC1_N_DAT_MED_TENANT_8
+ae5.1348,Layer3,Allow-Ping,ae5.1348: unknown,10.202.48.1/24,MSS_VR,1348,none,MSS,MSS_N_DAT_LOW,,Disabled,,1348_MSS_DC1_N_DAT_LOW_TENANT_1
+ae5.1349,Layer3,Allow-Ping,ae5.1349: unknown,10.202.49.1/24,MSS_VR,1349,none,MSS,MSS_N_DAT_LOW,,Disabled,,1349_MSS_DC1_N_DAT_LOW_TENANT_2
+ae5.1350,Layer3,Allow-Ping,ae5.1350: unknown,10.202.50.1/24,MSS_VR,1350,none,MSS,MSS_N_DAT_LOW,,Disabled,,1350_MSS_DC1_N_DAT_LOW_TENANT_3
+ae5.1351,Layer3,Allow-Ping,ae5.1351: unknown,10.202.51.1/24,MSS_VR,1351,none,MSS,MSS_N_DAT_LOW,,Disabled,,1351_MSS_DC1_N_DAT_LOW_TENANT_4
+ae5.1352,Layer3,Allow-Ping,ae5.1352: unknown,10.202.52.1/24,MSS_VR,1352,none,MSS,MSS_N_DAT_LOW,,Disabled,,1352_MSS_DC1_N_DAT_LOW_TENANT_5
+ae5.1353,Layer3,Allow-Ping,ae5.1353: unknown,10.202.53.1/24,MSS_VR,1353,none,MSS,MSS_N_DAT_LOW,,Disabled,,1353_MSS_DC1_N_DAT_LOW_TENANT_6
+ae5.1354,Layer3,Allow-Ping,ae5.1354: unknown,10.202.54.1/24,MSS_VR,1354,none,MSS,MSS_N_DAT_LOW,,Disabled,,1354_MSS_DC1_N_DAT_LOW_TENANT_7
+ae5.1355,Layer3,Allow-Ping,ae5.1355: unknown,10.202.55.1/24,MSS_VR,1355,none,MSS,MSS_N_DAT_LOW,,Disabled,,1355_MSS_DC1_N_DAT_LOW_TENANT_8
+ae5.1611,Layer3,Allow-Ping,ae5.1611: unknown,10.52.11.1/24,EA_VR,1611,none,EA,EA_P_DAT_SEC,,Disabled,,1611_EA_P_DAT_SEC_TENANT1
+ae5.1677,Layer3,Allow-Ping,ae5.1677: unknown,10.52.77.1/24,EA_VR,1677,none,EA,EA_P_APP_SEC,,Disabled,,1677_EA_P_APP_SEC_TENANT1
+ae5.1811,Layer3,Allow-Ping,ae5.1811: unknown,10.224.11.1/24,EA_VR,1811,none,EA,EA_N_DAT_SEC,,Disabled,,1811_EA_N_DAT_SEC_TENANT1
+ae5.2500,Layer3,Allow-Ping,ae5.2500: unknown,10.236.0.1/24,MSS_VR,2500,none,MSS,MSS_APP_HIGH,,Disabled,,MSS_APP_HIGH
+ae5.2501,Layer3,Allow-Ping,ae5.2501: unknown,10.236.1.1/24,MSS_VR,2501,none,MSS,MSS_APP_HIGH,,Disabled,,MSS_APP_HIGH
+ae5.2502,Layer3,Allow-Ping,ae5.2502: unknown,10.236.2.1/24,MSS_VR,2502,none,MSS,MSS_APP_HIGH,,Disabled,,2502_MSS_DC1_P_APP_HIGH_TENANT3
+ae5.2503,Layer3,Allow-Ping,ae5.2503: unknown,10.236.3.1/24,MSS_VR,2503,none,MSS,MSS_APP_HIGH,,Disabled,,MSS_APP_HIGH
+ae5.2504,Layer3,Allow-Ping,ae5.2504: unknown,10.236.4.1/24,MSS_VR,2504,none,MSS,MSS_APP_HIGH,,Disabled,,MSS_APP_HIGH
+ae5.2505,Layer3,Allow-Ping,ae5.2505: unknown,10.236.5.1/24,MSS_VR,2505,none,MSS,MSS_APP_HIGH,,Disabled,,MSS_APP_HIGH
+ae5.2506,Layer3,Allow-Ping,ae5.2506: unknown,10.236.6.1/24,MSS_VR,2506,none,MSS,MSS_APP_HIGH,,Disabled,,MSS_APP_HIGH
+ae5.2507,Layer3,Allow-Ping,ae5.2507: unknown,10.236.7.1/24,MSS_VR,2507,none,MSS,MSS_APP_HIGH,,Disabled,,MSS_APP_HIGH
+ae5.2508,Layer3,Allow-Ping,ae5.2508: unknown,10.236.8.1/24,MSS_VR,2508,none,MSS,MSS_APP_MED,,Disabled,,MSS_APP_MED
+ae5.2509,Layer3,Allow-Ping,ae5.2509: unknown,10.236.9.1/24,MSS_VR,2509,none,MSS,MSS_APP_MED,,Disabled,,MSS_APP_MED
+ae5.2510,Layer3,Allow-Ping,ae5.2510: unknown,10.236.10.1/24,MSS_VR,2510,none,MSS,MSS_APP_MED,,Disabled,,MSS_APP_MED
+ae5.2511,Layer3,Allow-Ping,ae5.2511: unknown,10.236.11.1/24,MSS_VR,2511,none,MSS,MSS_APP_MED,,Disabled,,MSS_APP_MED
+ae5.2512,Layer3,Allow-Ping,ae5.2512: unknown,10.236.12.1/24,MSS_VR,2512,none,MSS,MSS_APP_MED,,Disabled,,MSS_APP_MED
+ae5.2513,Layer3,Allow-Ping,ae5.2513: unknown,10.236.13.1/24,MSS_VR,2513,none,MSS,MSS_APP_MED,,Disabled,,MSS_APP_MED
+ae5.2514,Layer3,Allow-Ping,ae5.2514: unknown,10.236.14.1/24,MSS_VR,2514,none,MSS,MSS_APP_MED,,Disabled,,MSS_APP_MED
+ae5.2515,Layer3,Allow-Ping,ae5.2515: unknown,10.236.15.1/24,MSS_VR,2515,none,MSS,MSS_APP_MED,,Disabled,,MSS_APP_MED
+ae5.2516,Layer3,Allow-Ping,ae5.2516: unknown,10.236.16.1/24,MSS_VR,2516,none,MSS,MSS_APP_LOW,,Disabled,,MSS_APP_LOW
+ae5.2517,Layer3,Allow-Ping,ae5.2517: unknown,10.236.17.1/24,MSS_VR,2517,none,MSS,MSS_APP_LOW,,Disabled,,MSS_APP_LOW
+ae5.2518,Layer3,Allow-Ping,ae5.2518: unknown,10.236.18.1/24,MSS_VR,2518,none,MSS,MSS_APP_LOW,,Disabled,,MSS_APP_LOW
+ae5.2519,Layer3,Allow-Ping,ae5.2519: unknown,10.236.19.1/24,MSS_VR,2519,none,MSS,MSS_APP_LOW,,Disabled,,MSS_APP_LOW
+ae5.2520,Layer3,Allow-Ping,ae5.2520: unknown,10.236.20.1/24,MSS_VR,2520,none,MSS,MSS_APP_LOW,,Disabled,,MSS_APP_LOW
+ae5.2521,Layer3,Allow-Ping,ae5.2521: unknown,10.236.21.1/24,MSS_VR,2521,none,MSS,MSS_APP_LOW,,Disabled,,MSS_APP_LOW
+ae5.2522,Layer3,Allow-Ping,ae5.2522: unknown,10.236.22.1/24,MSS_VR,2522,none,MSS,MSS_APP_LOW,,Disabled,,MSS_APP_LOW
+ae5.2523,Layer3,Allow-Ping,ae5.2523: unknown,10.236.23.1/24,MSS_VR,2523,none,MSS,MSS_APP_LOW,,Disabled,,MSS_APP_LOW
+ae5.2532,Layer3,Allow-Ping,ae5.2532: unknown,10.236.32.1/24,MSS_VR,2532,none,MSS,MSS_DAT_HIGH,,Disabled,,MSS_DAT_HIGH
+ae5.2533,Layer3,Allow-Ping,ae5.2533: unknown,10.236.33.1/24,MSS_VR,2533,none,MSS,MSS_DAT_HIGH,,Disabled,,MSS_DAT_HIGH
+ae5.2534,Layer3,Allow-Ping,ae5.2534: unknown,10.236.34.1/24,MSS_VR,2534,none,MSS,MSS_DAT_HIGH,,Disabled,,MSS_DAT_HIGH
+ae5.2535,Layer3,Allow-Ping,ae5.2535: unknown,10.236.35.1/24,MSS_VR,2535,none,MSS,MSS_DAT_HIGH,,Disabled,,MSS_DAT_HIGH
+ae5.2536,Layer3,Allow-Ping,ae5.2536: unknown,10.236.36.1/24,MSS_VR,2536,none,MSS,MSS_DAT_HIGH,,Disabled,,MSS_DAT_HIGH
+ae5.2537,Layer3,Allow-Ping,ae5.2537: unknown,10.236.37.1/24,MSS_VR,2537,none,MSS,MSS_DAT_HIGH,,Disabled,,MSS_DAT_HIGH
+ae5.2538,Layer3,Allow-Ping,ae5.2538: unknown,10.236.38.1/24,MSS_VR,2538,none,MSS,MSS_DAT_HIGH,,Disabled,,MSS_DAT_HIGH
+ae5.2539,Layer3,Allow-Ping,ae5.2539: unknown,10.236.39.1/24,MSS_VR,2539,none,MSS,MSS_DAT_HIGH,,Disabled,,MSS_DAT_HIGH
+ae5.2540,Layer3,Allow-Ping,ae5.2540: unknown,10.236.40.1/24,MSS_VR,2540,none,MSS,MSS_DAT_MED,,Disabled,,MSS_DAT_MED
+ae5.2541,Layer3,Allow-Ping,ae5.2541: unknown,10.236.41.1/24,MSS_VR,2541,none,MSS,MSS_DAT_MED,,Disabled,,MSS_DAT_MED
+ae5.2542,Layer3,Allow-Ping,ae5.2542: unknown,10.236.42.1/24,MSS_VR,2542,none,MSS,MSS_DAT_MED,,Disabled,,MSS_DAT_MED
+ae5.2543,Layer3,Allow-Ping,ae5.2543: unknown,10.236.43.1/24,MSS_VR,2543,none,MSS,MSS_DAT_MED,,Disabled,,MSS_DAT_MED
+ae5.2544,Layer3,Allow-Ping,ae5.2544: unknown,10.236.44.1/24,MSS_VR,2544,none,MSS,MSS_DAT_MED,,Disabled,,MSS_DAT_MED
+ae5.2545,Layer3,Allow-Ping,ae5.2545: unknown,10.236.45.1/24,MSS_VR,2545,none,MSS,MSS_DAT_MED,,Disabled,,MSS_DAT_MED
+ae5.2547,Layer3,Allow-Ping,ae5.2547: unknown,10.236.47.1/24,MSS_VR,2547,none,MSS,MSS_DAT_MED,,Disabled,,MSS_DAT_MED
+ae5.2548,Layer3,Allow-Ping,ae5.2548: unknown,10.236.48.1/24,MSS_VR,2548,none,MSS,MSS_DAT_LOW,,Disabled,,MSS_DAT_LOW
+ae5.2549,Layer3,Allow-Ping,ae5.2549: unknown,10.236.49.1/24,MSS_VR,2549,none,MSS,MSS_DAT_LOW,,Disabled,,MSS_DAT_LOW
+ae5.2550,Layer3,Allow-Ping,ae5.2550: unknown,10.236.50.1/24,MSS_VR,2550,none,MSS,MSS_DAT_LOW,,Disabled,,MSS_DAT_LOW
+ae5.2551,Layer3,Allow-Ping,ae5.2551: unknown,10.236.51.1/24,MSS_VR,2551,none,MSS,MSS_DAT_LOW,,Disabled,,MSS_DAT_LOW
+ae5.2552,Layer3,Allow-Ping,ae5.2552: unknown,10.236.52.1/24,MSS_VR,2552,none,MSS,MSS_DAT_LOW,,Disabled,,MSS_DAT_LOW
+ae5.2553,Layer3,Allow-Ping,ae5.2553: unknown,10.236.53.1/24,MSS_VR,2553,none,MSS,MSS_DAT_LOW,,Disabled,,MSS_DAT_LOW
+ae5.2554,Layer3,Allow-Ping,ae5.2554: unknown,10.236.54.1/24,MSS_VR,2554,none,MSS,MSS_DAT_LOW,,Disabled,,MSS_DAT_LOW
+ae5.2555,Layer3,Allow-Ping,ae5.2555: unknown,10.236.55.1/24,MSS_VR,2555,none,MSS,MSS_DAT_LOW,,Disabled,,MSS_DAT_LOW
+ae5.2807,Layer3,Allow-Ping,ae5.2807: unknown,10.208.7.1/24,ITS_VR,2807,none,ITS,ITS_CORE,,Disabled,,2807_ITS_DC1_P_Z3_SNOW
+ae5.2811,Layer3,Allow-Ping,ae5.2811: unknown,10.208.11.1/24,ITS_VR,2811,none,ITS,ITS_CORE,,Disabled,,2811_ITS_DC1_P_Z3_SAILPOINT
+ae5.2812,Layer3,Allow-Ping,ae5.2812: unknown,10.208.12.1/24,ITS_VR,2812,none,ITS,ITS_CORE,,Disabled,,2812_ITS_DC1_P_Z3_JUMPHOSTS
+ae5.2813,Layer3,Allow-Ping,ae5.2813: unknown,10.208.13.1/29,ITS_VR,2813,none,ITS,ITS_CORE,,Disabled,,2813_ITS_DC1_P_Z3_GENETEC
+ae5.2820,Layer3,Allow-Ping,ae5.2820: unknown,10.208.33.1/27,ITS_VR,2820,none,ITS,ITS_Z35,,Disabled,,2820_ITS_DC1_P_Z35_AD_SUPPORTINGSERVICES
+ae5.2823,Layer3,Allow-Ping,ae5.2823: unknown,10.208.33.49/29,ITS_VR,2823,none,ITS,ITS_Z35,,Disabled,,2823_ITS_DC1_P_Z35_JUMPHOSTS
+ae5.2824,Layer3,Allow-Ping,ae5.2824: unknown,10.208.33.57/29,ITS_VR,2824,none,ITS,ITS_Z35,,Disabled,,2824_ITS_DC1_P_Z35_ACTIVE_DIRECTORY
+ae5.2825,Layer3,Allow-Ping,ae5.2825: unknown,10.208.33.65/29,ITS_VR,2825,none,ITS,ITS_Z35,,Disabled,,2825_ITS_DC1_P_Z35_SAILPOINT
+ae5.3815,Layer3,Allow-Ping,ae5.3815: unknown,10.52.0.9/29,EA_VR,3815,none,EA,EA_P_DAT_GEN,,Disabled,,EA_FW-DAT_GEN_VRF
+ae5.3816,Layer3,Allow-Ping,ae5.3816: unknown,10.52.8.9/29,EA_VR,3816,none,EA,EA_P_DAT_SEC,,Disabled,,EA_FW-DAT_SEC_VRF
+ae5.3825,Layer3,Allow-Ping,ae5.3825: unknown,10.52.64.9/29,EA_VR,3825,none,EA,EA_P_APP_GEN,,Disabled,,EA_FW-APP_GEN_VRF
+ae5.3826,Layer3,Allow-Ping,ae5.3826: unknown,10.52.72.9/29,EA_VR,3826,none,EA,EA_P_APP_SEC,,Disabled,,EA_FW-APP_SEC_VRF
+ae5.3835,Layer3,Allow-Ping,ae5.3835: unknown,10.52.128.9/29,EA_VR,3835,none,EA,EA_P_PRS_GEN,,Disabled,,EA_FW-PRS_GEN_VRF
+ae5.3836,Layer3,Allow-Ping,ae5.3836: unknown,10.52.136.9/29,EA_VR,3836,none,EA,EA_P_PRS_SEC,,Disabled,,EA_FW-PRS_SEC_VRF
+ae5.3843,Layer3,Allow-Ping,ae5.3843: unknown,10.54.64.9/29,PC_VR,3843,none,PC,PC_APP,,Disabled,,PC_FW-PC_APP_VR
+ae5.3845,Layer3,Allow-Ping,ae5.3845: unknown,10.54.128.9/29,PC_VR,3845,none,PC,PC_PRS,,Disabled,,PC_FW-PC_PRS_VR
+ae5.3861,Layer3,Allow-Ping,ae5.3861: unknown,10.208.0.9/29,ITS_VR,3861,none,ITS,ITS_CORE,,Disabled,,ITS_FW-ITS_CORE_VRF
+ae5.3880,Layer3,Allow-Ping,ae5.3880: unknown,10.236.127.1/29,MSS_VR,3880,none,MSS,MSS_CORE,,Disabled,,MSS_FW-MSS_AGG_VRF
+ae5.3881,Layer3,Allow-Ping,ae5.3881: unknown,10.236.127.132/29,EA_VR,3881,none,EA,EA_MSS_AGG,,Disabled,,EA_FW-MSS_AGG_VRF
+ae5.3882,Layer3,Allow-Ping,ae5.3882: unknown,10.236.127.164/29,PC_VR,3882,none,PC,PC_MSS_AGG,,Disabled,,PC_FW-MSS_AGG_VRF
+ae5.3883,Layer3,Allow-Ping,ae5.3883: unknown,10.236.30.1/29,MSS_VR,3883,none,MSS,MSS_APP_HIGH,,Disabled,,Splunk Handoff VLAN
+ae5.3884,Layer3,Allow-Ping,ae5.3884: unknown,10.236.30.9/29,MSS_VR,3884,none,MSS,MSS_CORE,,Disabled,,
+ae6,Layer3,,Type: lacp;State: Enabled;Mode: Passive;Local Key: 21;Local MAC: 08:30:6b:84:08:01;Local Priority: 32768;Partner Key: 149;Partner MAC: cc:ed:4d:67:32:0b;Partner Priority: 32768;Member (ethernet1/18): active;Member (ethernet1/16): active;Member (ethernet1/17): active,none,none,Untagged,none,none,none,,Disabled,LACP Enable,
+ae6.540,Layer3,Allow-Ping,ae6.540: unknown,172.22.1.44/29,EA_VR,540,none,EA,EA_TR,,Disabled,,EA_FW-TR01-02
+ae6.548,Layer3,Allow-Ping,ae6.548: unknown,172.22.1.52/29,PC_VR,548,none,PC,PC_TR,,Disabled,,PC_FW-TR01-0
+ae6.580,Layer3,Allow-Ping,ae6.580: unknown,172.22.1.84/29,ITS_VR,580,none,ITS,ITS_TR,,Disabled,Netflow Profile: Netflow-Servers,ITS_FW-TR01-02
+ae6.588,Layer3,Allow-Ping,ae6.588: unknown,172.22.1.92/29,MSS_VR,588,none,MSS,MSS_TR,,Disabled,Netflow Profile: Netflow-Servers,MSS_FW-TR01-02
