@@ -158,22 +158,26 @@ def parse_results(results, vlan_zones):
     Add Zone column
     """
     parsed_results = {}
-
     # Define the core switches for each DC
     dc1_core_switches = {
         "TU-VIC-DC1-L0-SW-COR-PRD-01",
         "TU-VIC-DC1-L0-SW-COR-PRD-02"
     }
-
     dc2_core_switches = {
         "TU-NSW-DC2-L0-SW-COR-PRD-01",
         "TU-NSW-DC2-L0-SW-COR-PRD-02"
+    }
+    # Friendly labels mapped to hostnames for per-core columns
+    core_label_map = {
+        "DC1 SW1": "TU-VIC-DC1-L0-SW-COR-PRD-01",
+        "DC1 SW2": "TU-VIC-DC1-L0-SW-COR-PRD-02",
+        "DC2 SW1": "TU-NSW-DC2-L0-SW-COR-PRD-01",
+        "DC2 SW2": "TU-NSW-DC2-L0-SW-COR-PRD-02",
     }
 
     for vlan, vlan_data in results.items():
         if vlan not in parsed_results:
             parsed_results[vlan] = {}
-
         # Add Zone column
         parsed_results[vlan]["Zone"] = vlan_zones.get(vlan, "")
 
@@ -206,11 +210,16 @@ def parse_results(results, vlan_zones):
                         'ip': device_data["sw_ip"]
                     }
 
-        # Set DC1 to True ONLY if BOTH DC1 core switches have this VLAN, otherwise blank
+        # New: per-core switch presence (True/blank)
+        for label, core_hostname in core_label_map.items():
+            parsed_results[vlan][label] = True if (
+                (core_hostname in dc1_cores_with_vlan) or (core_hostname in dc2_cores_with_vlan)
+            ) else ""
+
+        # Aggregate DC columns (True only if BOTH cores have the VLAN)
         dc1_has_all = (dc1_cores_with_vlan == dc1_core_switches)
         parsed_results[vlan]["DC1"] = True if dc1_has_all else ""
 
-        # Set DC2 to True ONLY if BOTH DC2 core switches have this VLAN, otherwise blank
         dc2_has_all = (dc2_cores_with_vlan == dc2_core_switches)
         parsed_results[vlan]["DC2"] = True if dc2_has_all else ""
 
@@ -220,7 +229,7 @@ def parse_results(results, vlan_zones):
 def get_ordered_columns():
     """
     Returns the columns in the specific order:
-    1. Zone, DC1, DC2
+    1. Zone, DC1 SW1, DC1 SW2, DC2 SW1, DC2 SW2, DC1, DC2
     2. DC1 Core switches and their _svi_info
     3. DC2 Core switches and their _svi_info
     4. Firewall info
@@ -228,32 +237,40 @@ def get_ordered_columns():
     """
     ordered_columns = [
         "Zone",
+        "DC1 SW1",
+        "DC1 SW2",
+        "DC2 SW1",
+        "DC2 SW2",
         "DC1",
         "DC2",
+
         # DC1 Core switches with svi_info
         "TU-VIC-DC1-L0-SW-COR-PRD-01",
         "TU-VIC-DC1-L0-SW-COR-PRD-01_svi_info",
         "TU-VIC-DC1-L0-SW-COR-PRD-02",
         "TU-VIC-DC1-L0-SW-COR-PRD-02_svi_info",
+
         # DC2 Core switches with svi_info
         "TU-NSW-DC2-L0-SW-COR-PRD-01",
         "TU-NSW-DC2-L0-SW-COR-PRD-01_svi_info",
         "TU-NSW-DC2-L0-SW-COR-PRD-02",
         "TU-NSW-DC2-L0-SW-COR-PRD-02_svi_info",
+
         # Firewall info
         "TUVIC-MIT-PA-DCFW1_fw_info",
         "TUNSW-BKH-PA-DCFW1_fw_info",
-        # DC2 ACC switches
+
+        # ... (rest unchanged)
         "TU-NSW-DC2-L0-SW-ACC-PRD-01",
         "TU-NSW-DC2-L0-SW-ACC-PRD-02",
         "TU-NSW-DC2-L0-SW-ACC-PRD-03",
         "TU-NSW-DC2-L0-SW-ACC-PRD-04",
         "TU-NSW-DC2-L0-SW-ACC-PRD-05",
         "TU-NSW-DC2-L0-SW-ACC-PRD-06",
-        # DC2 OOB switches
+
         "TU-NSW-DC2-L0-SW-OOB-PRD-01",
         "TU-NSW-DC2-L0-SW-OOB-PRD-02",
-        # DC2 TOR-MGT switches
+
         "TU-NSW-DC2-L0-SW-TOR-MGT-01",
         "TU-NSW-DC2-L0-SW-TOR-MGT-02",
         "TU-NSW-DC2-L0-SW-TOR-MGT-03",
@@ -263,7 +280,7 @@ def get_ordered_columns():
         "TU-NSW-DC2-L0-SW-TOR-MGT-07",
         "TU-NSW-DC2-L0-SW-TOR-MGT-08",
         "TU-NSW-DC2-L0-SW-TOR-MGT-09",
-        # DC2 TOR-PRD switches
+
         "TU-NSW-DC2-L0-SW-TOR-PRD-01",
         "TU-NSW-DC2-L0-SW-TOR-PRD-02",
         "TU-NSW-DC2-L0-SW-TOR-PRD-03",
@@ -273,13 +290,13 @@ def get_ordered_columns():
         "TU-NSW-DC2-L0-SW-TOR-PRD-07",
         "TU-NSW-DC2-L0-SW-TOR-PRD-09",
         "TU-NSW-DC2-L0-SW-TOR-PRD-10",
-        # DC1 TOR-MGT switches
+
         "TU-VIC-DC1-L0-SW-TOR-MGT-01",
         "TU-VIC-DC1-L0-SW-TOR-MGT-02",
         "TU-VIC-DC1-L0-SW-TOR-MGT-03",
         "TU-VIC-DC1-L0-SW-TOR-MGT-04",
         "TU-VIC-DC1-L0-SW-TOR-MGT-05",
-        # DC1 TOR-PRD switches
+
         "TU-VIC-DC1-L0-SW-TOR-PRD-01",
         "TU-VIC-DC1-L0-SW-TOR-PRD-02",
         "TU-VIC-DC1-L0-SW-TOR-PRD-03",
@@ -288,7 +305,6 @@ def get_ordered_columns():
         "TU-VIC-DC1-L0-SW-TOR-PRD-06",
         "TU-VIC-DC1-L0-SW-TOR-PRD-07",
     ]
-
     return ordered_columns
 
 
@@ -317,12 +333,12 @@ def main():
     df = df[final_columns]
     df = df.sort_index()
 
-    filename = "results_columns_orientation.csv"
+    filename = "../results_columns_orientation.csv"
     df.to_csv(filename)
     print(f"Results saved to {filename}")
 
     # Also save as Excel for better readability
-    filename_excel = "results_columns_orientation.xlsx"
+    filename_excel = "../results_columns_orientation.xlsx"
     df.to_excel(filename_excel)
     print(f"Results saved to {filename_excel}")
 
@@ -340,12 +356,12 @@ def main():
 
     df_transposed = df_transposed.reindex(final_rows)
 
-    filename = "results_index_orientation.csv"
+    filename = "../results_index_orientation.csv"
     df_transposed.to_csv(filename)
     print(f"Results saved to {filename}")
 
     # Also save as Excel for better readability
-    filename_excel = "results_index_orientation.xlsx"
+    filename_excel = "../results_index_orientation.xlsx"
     df_transposed.to_excel(filename_excel)
     print(f"Results saved to {filename_excel}")
 

@@ -7,7 +7,7 @@ from pathlib import Path
 
 import pandas as pd
 
-OUTPUT_DIR = Path(r"C:\scripts\vlan_script\outputs")
+OUTPUT_DIR = Path(r"C:\vlan_script_functions\cor_tor_comparison_outputs")
 
 # Define zones to process - each will be processed separately
 ZONES = [
@@ -38,13 +38,13 @@ switch_types = {
 
 def get_file_list_vlan():
     # Adjust if your input path changes
-    search = r"C:\scripts\vlan_script\configs\**\show_vlan.json"
+    search = r"C:\vlan_script_functions\configs\**\show_vlan.json"
     return glob.glob(search, recursive=True)
 
 
 def get_file_list_vrf():
     # Adjust if your input path changes
-    search = r"C:\scripts\vlan_script\configs\**\show_ip_interface_brief_vrf_all.json"
+    search = r"C:\vlan_script_functions\configs\**\show_ip_interface_brief_vrf_all.json"
     return glob.glob(search, recursive=True)
 
 
