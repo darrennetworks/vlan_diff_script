@@ -43,14 +43,16 @@ def read_vlan_files():
             vlan_id = v['VLAN_ID']
             if vlan_id not in results:
                 results[vlan_id] = {}
-            results[vlan_id][hostname] = True
+            if hostname not in results[vlan_id]:
+                results[vlan_id][hostname] = {}
+            results[vlan_id][hostname] = {'has_vlan': True}
 
     return results
 
 
-def read_core_switch_files():
+def read_core_switch_files(results):
     filenames = get_core_sw_file_list()
-    results = {}
+    # results = {}
 
     for filename in filenames:
         print(f"Reading {filename}")
@@ -84,9 +86,9 @@ def read_core_switch_files():
     return results  # , hostnames
 
 
-def read_files_firewalls():
+def read_files_firewalls(results):
     filenames = get_firewall_file_list()
-    results = {}
+    # results = {}
 
     for filename in filenames:
         print(f"Reading {filename}")
@@ -124,54 +126,45 @@ def read_files_firewalls():
 def parse_results(results):
     parsed_results = {}
     hostnames = {"DC1", "DC2"}
+
     for vlan, vlan_data in results.items():
         if vlan not in parsed_results:
             parsed_results[vlan] = {}
         for hostname, device_data in vlan_data.items():
             hostnames.add(hostname)
-            # DC presence flags (unchanged)
             if "DC1" in hostname:
                 parsed_results[vlan]["DC1"] = True
             if "DC2" in hostname:
                 parsed_results[vlan]["DC2"] = True
-
-            if isinstance(device_data, dict):
-                # ---- Layer 3 information (SVIs, firewall interfaces) ----
-                base = f"{hostname} (layer 3 information)"
-                if "-SW-" in hostname:
-                    # Switch L3
-                    parsed_results[vlan][f"{base}_interface"] = device_data.get("sw_interface")
-                    parsed_results[vlan][f"{base}_vrf"]       = device_data.get("sw_vrf")
-                    parsed_results[vlan][f"{base}_ip"]        = device_data.get("sw_ip")
-                else:
-                    # Firewall L3
-                    parsed_results[vlan][f"{base}_interface"] = device_data.get("fw_interface")
-                    parsed_results[vlan][f"{base}_zone"]      = device_data.get("fw_zone")
-                    parsed_results[vlan][f"{base}_fwd"]       = device_data.get("fw_fwd")
-                    parsed_results[vlan][f"{base}_ip"]        = device_data.get("fw_ip")
+            # Firewall Data
+            if "DCFW" in hostname:
+                parsed_results[vlan][f"{hostname}_interface"] = device_data["fw_interface"]
+                parsed_results[vlan][f"{hostname}_zone"] = device_data["fw_zone"]
+                parsed_results[vlan][f"{hostname}_fwd"] = device_data["fw_fwd"]
+                parsed_results[vlan][f"{hostname}_ip"] = device_data["fw_ip"]
             else:
-                # ---- Layer 2 information (VLAN seen on that switch) ----
-                if "-SW-" in hostname:
-                    parsed_results[vlan][f"{hostname} (layer 2 information)"] = device_data
-                else:
-                    # Non-switch true flags (if any) stay as-is
-                    parsed_results[vlan][hostname] = device_data
+                if "has_vlan" in device_data:
+                    parsed_results[vlan][hostname] = device_data["has_vlan"]
+                if "sw_interface" in device_data:
+                    parsed_results[vlan][f"{hostname}_interface"] = device_data["sw_interface"]
+                    parsed_results[vlan][f"{hostname}_vrf"] = device_data["sw_vrf"]
+                    parsed_results[vlan][f"{hostname}_ip"] = device_data["sw_ip"]
+
     return parsed_results
 
 
 def main():
-    sw_results = read_vlan_files()
-    cw_results = read_core_switch_files()
-    fw_results = read_files_firewalls()
+    results = read_vlan_files()
+    results = read_core_switch_files(results)
+    results = read_files_firewalls(results)
 
-    results = sw_results | cw_results | fw_results
-
+    # results = sw_results | cw_results | fw_results
     results = parse_results(results)
 
     # Columns orientation
     df = pandas.DataFrame.from_dict(results)
     df = df.sort_index()
-    filename = "results_columns_orientation.csv"
+    filename = "../results_columns_orientation.csv"
     df.to_csv(filename)
     print(f"Results saved to {filename}")
 
@@ -179,7 +172,7 @@ def main():
     hostnames = {x for v in results.values() for x in v}
     columns = sorted(list(hostnames))
     df = pandas.DataFrame.from_dict(results, orient="index")
-    filename = "results_index_orientation.csv"
+    filename = "../results_index_orientation.csv"
     df.to_csv(filename, columns=columns)
     print(f"Results saved to {filename}")
 
