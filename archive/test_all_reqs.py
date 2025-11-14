@@ -12,19 +12,19 @@ ZONES = {
 
 
 def get_vlan_file_list():
-    search = r"C:\scripts\vlan_script\configs\**\show_vlan.json"
+    search = r"C:\vlan_script_functions\configs\**\show_vlan.json"
     files = glob.glob(search, recursive=True)
     return files
 
 
 def get_core_sw_file_list():
-    search = r"C:\scripts\vlan_script\configs\**\show_ip_interface_brief_vrf_all.json"
+    search = r"C:\vlan_script_functions\configs\**\show_ip_interface_brief_vrf_all.json"
     files = glob.glob(search, recursive=True)
     return files
 
 
 def get_firewall_file_list():
-    search = r"C:\scripts\vlan_script\configs\**\show_interface_all.json"
+    search = r"C:\vlan_script_functions\configs\**\show_interface_all.json"
     files = glob.glob(search, recursive=True)
     return files
 
@@ -54,7 +54,7 @@ def read_vlan_files():
             vlans = json.load(f)
 
         split_file_path = filename.split("\\")
-        hostname = split_file_path[4]
+        hostname = split_file_path[3]
 
         if "TU-VIC-DC1" not in hostname and "TU-NSW-DC2" not in hostname:
             continue
@@ -83,7 +83,7 @@ def read_core_switch_files(results):
             vlans = json.load(f)
 
         split_file_path = filename.split("\\")
-        hostname = split_file_path[4]
+        hostname = split_file_path[3]
 
         if "COR" not in hostname:
             continue
@@ -125,7 +125,7 @@ def read_files_firewalls(results):
             response = json.load(f)
 
         split_file_path = filename.split("\\")
-        hostname = split_file_path[4]
+        hostname = split_file_path[3]
 
         if "MIT" not in hostname and "BKH" not in hostname:
             continue

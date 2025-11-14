@@ -2,6 +2,14 @@ import pandas
 import glob
 import json
 
+# Define zones and their VRF name patterns
+ZONES = {
+    "EA": ["EA-BMS", "EA-"],
+    "MSS": ["MSS"],
+    "ITS": ["ITS"],
+    "CORPORATE": ["corporate"]
+}
+
 
 def get_vlan_file_list():
     search = r"C:\vlan_script_functions\configs\**\show_vlan.json"
@@ -21,6 +29,20 @@ def get_firewall_file_list():
     return files
 
 
+def get_zone_from_vrf(vrf_name):
+    """Determine which zone a VRF belongs to"""
+    if not vrf_name:
+        return ""
+
+    vrf_upper = vrf_name.upper()
+
+    for zone, patterns in ZONES.items():
+        for pattern in patterns:
+            if pattern.upper() in vrf_upper:
+                return zone
+    return ""
+
+
 def read_vlan_files():
     filenames = get_vlan_file_list()
     results = {}
@@ -32,7 +54,7 @@ def read_vlan_files():
             vlans = json.load(f)
 
         split_file_path = filename.split("\\")
-        hostname = split_file_path[4]
+        hostname = split_file_path[3]
 
         if "TU-VIC-DC1" not in hostname and "TU-NSW-DC2" not in hostname:
             continue
@@ -52,7 +74,7 @@ def read_vlan_files():
 
 def read_core_switch_files(results):
     filenames = get_core_sw_file_list()
-    # results = {}
+    vlan_zones = {}  # Track zone for each VLAN
 
     for filename in filenames:
         print(f"Reading {filename}")
@@ -61,7 +83,7 @@ def read_core_switch_files(results):
             vlans = json.load(f)
 
         split_file_path = filename.split("\\")
-        hostname = split_file_path[4]
+        hostname = split_file_path[3]
 
         if "COR" not in hostname:
             continue
@@ -75,6 +97,13 @@ def read_core_switch_files(results):
             if "Vlan" not in v['INTERFACE']:
                 continue
             vlan_id = v['INTERFACE'].replace('Vlan', '')
+            vrf_name = v.get('VRF', '')
+
+            # Determine zone from VRF
+            zone = get_zone_from_vrf(vrf_name)
+            if zone and vlan_id not in vlan_zones:
+                vlan_zones[vlan_id] = zone
+
             if vlan_id not in results:
                 results[vlan_id] = {}
             if hostname not in results[vlan_id]:
@@ -83,12 +112,11 @@ def read_core_switch_files(results):
             results[vlan_id][hostname]['sw_vrf'] = v['VRF']
             results[vlan_id][hostname]['sw_ip'] = v['IP_ADDRESS']
 
-    return results  # , hostnames
+    return results, vlan_zones
 
 
 def read_files_firewalls(results):
     filenames = get_firewall_file_list()
-    # results = {}
 
     for filename in filenames:
         print(f"Reading {filename}")
@@ -97,7 +125,7 @@ def read_files_firewalls(results):
             response = json.load(f)
 
         split_file_path = filename.split("\\")
-        hostname = split_file_path[4]
+        hostname = split_file_path[3]
 
         if "MIT" not in hostname and "BKH" not in hostname:
             continue
@@ -123,19 +151,43 @@ def read_files_firewalls(results):
     return results
 
 
-def parse_results(results):
+def parse_results(results, vlan_zones):
+    """
+    Parse results and set DC1/DC2 to True only if BOTH core switches in that DC have the VLAN
+    Show blank instead of False
+    Add Zone column
+    """
     parsed_results = {}
-    hostnames = {"DC1", "DC2"}
+
+    # Define the core switches for each DC
+    dc1_core_switches = {
+        "TU-VIC-DC1-L0-SW-COR-PRD-01",
+        "TU-VIC-DC1-L0-SW-COR-PRD-02"
+    }
+
+    dc2_core_switches = {
+        "TU-NSW-DC2-L0-SW-COR-PRD-01",
+        "TU-NSW-DC2-L0-SW-COR-PRD-02"
+    }
 
     for vlan, vlan_data in results.items():
         if vlan not in parsed_results:
             parsed_results[vlan] = {}
+
+        # Add Zone column
+        parsed_results[vlan]["Zone"] = vlan_zones.get(vlan, "")
+
+        # Track which core switches have this VLAN
+        dc1_cores_with_vlan = set()
+        dc2_cores_with_vlan = set()
+
         for hostname, device_data in vlan_data.items():
-            hostnames.add(hostname)
-            if "DC1" in hostname:
-                parsed_results[vlan]["DC1"] = True
-            if "DC2" in hostname:
-                parsed_results[vlan]["DC2"] = True
+            # Track core switches
+            if hostname in dc1_core_switches:
+                dc1_cores_with_vlan.add(hostname)
+            elif hostname in dc2_core_switches:
+                dc2_cores_with_vlan.add(hostname)
+
             # Firewall Data
             if "DCFW" in hostname:
                 parsed_results[vlan][f"{hostname}_fw_info"] = {
@@ -154,19 +206,28 @@ def parse_results(results):
                         'ip': device_data["sw_ip"]
                     }
 
+        # Set DC1 to True ONLY if BOTH DC1 core switches have this VLAN, otherwise blank
+        dc1_has_all = (dc1_cores_with_vlan == dc1_core_switches)
+        parsed_results[vlan]["DC1"] = True if dc1_has_all else ""
+
+        # Set DC2 to True ONLY if BOTH DC2 core switches have this VLAN, otherwise blank
+        dc2_has_all = (dc2_cores_with_vlan == dc2_core_switches)
+        parsed_results[vlan]["DC2"] = True if dc2_has_all else ""
+
     return parsed_results
 
 
 def get_ordered_columns():
     """
-    Returns the columns in the specific order shown in the image:
-    1. DC1, DC2
+    Returns the columns in the specific order:
+    1. Zone, DC1, DC2
     2. DC1 Core switches and their _svi_info
     3. DC2 Core switches and their _svi_info
     4. Firewall info
     5. Other switches (ACC, OOB, TOR-MGT, TOR-PRD, etc.)
     """
     ordered_columns = [
+        "Zone",
         "DC1",
         "DC2",
         # DC1 Core switches with svi_info
@@ -233,11 +294,11 @@ def get_ordered_columns():
 
 def main():
     results = read_vlan_files()
-    results = read_core_switch_files(results)
+    results, vlan_zones = read_core_switch_files(results)
     results = read_files_firewalls(results)
 
-    # results = sw_results | cw_results | fw_results
-    results = parse_results(results)
+    # Parse results with zone information
+    results = parse_results(results, vlan_zones)
 
     # Get the ordered columns list
     ordered_columns = get_ordered_columns()
@@ -256,12 +317,12 @@ def main():
     df = df[final_columns]
     df = df.sort_index()
 
-    filename = "results_columns_orientation.csv"
+    filename = "../results_columns_orientation.csv"
     df.to_csv(filename)
     print(f"Results saved to {filename}")
 
     # Also save as Excel for better readability
-    filename_excel = "results_columns_orientation.xlsx"
+    filename_excel = "../results_columns_orientation.xlsx"
     df.to_excel(filename_excel)
     print(f"Results saved to {filename_excel}")
 
@@ -279,12 +340,12 @@ def main():
 
     df_transposed = df_transposed.reindex(final_rows)
 
-    filename = "results_index_orientation.csv"
+    filename = "../results_index_orientation.csv"
     df_transposed.to_csv(filename)
     print(f"Results saved to {filename}")
 
     # Also save as Excel for better readability
-    filename_excel = "results_index_orientation.xlsx"
+    filename_excel = "../results_index_orientation.xlsx"
     df_transposed.to_excel(filename_excel)
     print(f"Results saved to {filename_excel}")
 
