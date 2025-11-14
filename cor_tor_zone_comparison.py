@@ -1,8 +1,6 @@
-import os
 import glob
 import json
 from typing import Dict, List, Set, Tuple
-from collections import Counter
 from pathlib import Path
 
 import pandas as pd
@@ -52,7 +50,7 @@ def read_vlan_data():
     filenames = get_file_list_vlan()
     vlan_data = {}
     for filename in filenames:
-        hostname = filename.split("\\")[4]  # keep your existing indexing
+        hostname = filename.split("\\")[3]
         if "DC" in hostname and ("VIC" in hostname or "NSW" in hostname):
             with open(filename, "r") as f:
                 vlans = json.load(f)
@@ -66,7 +64,9 @@ def read_vlan_data():
 
 
 def read_interface_vrf_data_for_zone(zone: str):
-    """Read VRF data for a specific zone"""
+    """
+    Read VRF data for a specific zone
+    """
     filenames = get_file_list_vrf()
     interface_vrf_data: Dict[str, List[Dict[str, str]]] = {}
 
@@ -74,7 +74,7 @@ def read_interface_vrf_data_for_zone(zone: str):
         with open(filename, "r") as f:
             vrfs = json.load(f)
 
-        hostname = filename.split("\\")[4]
+        hostname = filename.split("\\")[3]
         zone_vrf_list = []
 
         for vrf in vrfs:
@@ -95,9 +95,11 @@ def read_interface_vrf_data_for_zone(zone: str):
     return interface_vrf_data
 
 
-# gets cor, tor_prd and tor_mgt switches
 def get_switch_groups_for_dc(dc: str, switch_types_map: Dict[str, List[str]]
                              ) -> Tuple[List[str], List[str], List[str]]:
+    """
+    Gets cor, tor_prd and tor_mgt switches
+    """
     cor_key = f"{dc}_Core"
     tor_prd_key = f"{dc}_TOR_PRD"
     tor_mgt_key = f"{dc}_TOR_MGT"
@@ -108,10 +110,13 @@ def get_switch_groups_for_dc(dc: str, switch_types_map: Dict[str, List[str]]
     return cor_switches, tor_prd_switches, tor_mgt_switches
 
 
-# gets vlans data for the cor switches in the zones
+
 def collect_zone_vlans_in_cor(cor_switches: List[str],
                               zone_vrf_data: Dict[str, List[Dict[str, str]]]
                               ) -> Set[str]:
+    """
+    Gets vlans data for the cor switches in the zones
+    """
     zone_vlans_in_cor: Set[str] = set()
     for cor_switch in cor_switches:
         if cor_switch in zone_vrf_data:
@@ -122,11 +127,13 @@ def collect_zone_vlans_in_cor(cor_switches: List[str],
     return zone_vlans_in_cor
 
 
-# gets cor_zone_vlans for a single zone, and uses cor_zone_vlan data
 def build_cor_zone_vlan_baseline(cor_switches: List[str],
                                  vlan_data: Dict[str, List[Tuple[str, str]]],
                                  zone_vlans_in_cor: Set[str]
                                  ) -> Tuple[Dict[str, Set[str]], Set[str]]:
+    """
+    Gets cor_zone_vlans for a single zone, and uses cor_zone_vlan data
+    """
     cor_switch_vlans: Dict[str, Set[str]] = {}
     all_cor_zone_vlans: Set[str] = set()
 
@@ -141,13 +148,15 @@ def build_cor_zone_vlan_baseline(cor_switches: List[str],
     return cor_switch_vlans, all_cor_zone_vlans
 
 
-# compares cor switch vlans within DC
 def compare_cor_switches(dc: str,
                          zone_name: str,
                          cor_switches: List[str],
                          cor_switch_vlans: Dict[str, Set[str]],
                          all_cor_zone_vlans: Set[str]
                          ) -> List[Dict[str, object]]:
+    """
+    Compares cor switch vlans within DC
+    """
     results: List[Dict[str, object]] = []
 
     print(f"\n--- COR Switches Comparison (Within DC) ---")
@@ -177,7 +186,6 @@ def compare_cor_switches(dc: str,
     return results
 
 
-# compares tor switches with all cor switch vlans
 def compare_tor_group(dc: str,
                       zone_name: str,
                       tor_switches: List[str],
@@ -185,6 +193,9 @@ def compare_tor_group(dc: str,
                       all_cor_zone_vlans: Set[str],
                       switch_type_label: str
                       ) -> List[Dict[str, object]]:
+    """
+    Compares tor switches with all cor switch vlans
+    """
     results: List[Dict[str, object]] = []
 
     for tor_switch in tor_switches:
@@ -320,7 +331,7 @@ def compare_zone_vlans_tor_vs_cor(vlan_data, zone_vrf_data, zone_name):
 def results_to_dataframe(comparison_results: List[Dict[str, object]]) -> pd.DataFrame:
     """
     Convert comparison results (list of dicts) to an Excel-friendly DataFrame.
-    Now includes Zone column for filtering.
+    Includes Zone column for filtering.
     """
     excel_rows = []
     for result in comparison_results:
