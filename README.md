@@ -11,11 +11,6 @@ It also has svi and firewall information and filters it for zones.
 Does the same comparison logic as cor_tor_zone_comparison.py but also loops through firewall interfaces (show_interface_all.json) and outputs firewall and 
 svi information.
 
-Configs folder is populated by running this command:
-```
-aws s3 cp s3://netops-collection/config_collector/ . --recursive
-```
-
 # Pre-requisites
 
 The following pre-requisites are required to use this toolkit:
@@ -60,3 +55,13 @@ cd vlan_diff_script
 
 ```console
 pip install -r requirements-dev.txt
+```
+
+## How to use modules/functions
+
+1) Create folder named "Configs" in root directory
+
+2) Populate configs folder by running this command:
+```
+aws s3 cp s3://netops-collection/config_collector/ . --recursive
+```
