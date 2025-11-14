@@ -8,7 +8,8 @@ within it's DC and compares the cor switches from DC1 vs DC2.
 
 svi_fw_vlan_comparison.py - Compares the cor and tor switches across DC1 and DC2, and has all information for all switches and vlans. 
 It also has svi and firewall information and filters it for zones.
-
+Does the same comparison logic as cor_tor_zone_comparison.py but also loops through firewall interfaces (show_interface_all.json) and outputs firewall and 
+svi information.
 
 ```Configs folder is populated by running this command:
 aws s3 cp s3://netops-collection/config_collector/ . --recursive
